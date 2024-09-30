@@ -58,6 +58,27 @@ agente_buscador  = Agent(
 #     #tools=[claude_tool]
 # )
 
+agente_BI  = Agent(
+    role='Processar e organizar as informações obtidas para gerar insights.',
+    goal='Criar relatórios detalhados com base nos dados extraídos e filtrados, identificando padrões e oportunidades de melhoria.',
+    backstory="Especialista em inteligência de negócios, com vasta experiência na geração de relatórios e análise de grandes volumes de dados.",
+    memory=False,
+    verbose=False,
+    max_iter=10,
+    model='gpt-4o-mini',
+    allow_delegation = False
+)
+agente_revisor  = Agent(
+    role='Revisar as informações coletadas e sugerir correções.',
+    goal='Garantir que a documentação final esteja correta e bem estruturada, de acordo com as melhores práticas de redação.',
+    backstory="Especialista em revisão de documentos, com grande atenção aos detalhes e capacidade de identificar erros ou inconsistências.",
+    memory=False,
+    verbose=False,
+    max_iter=10,
+    model='gpt-4o-mini',
+    allow_delegation = False
+)
+
 task_documentation = Task(
     description="Documentar a transcrição a seguir: {transcript}",
     expected_output="Uma documentação em Markdown bem detalhada.",
@@ -87,7 +108,7 @@ databricks_reviewer = Task(
 )
 
 crew = Crew(
-    agents=[documentation_specialist,doc_reviewer,ai_internet_researcher,databricks_specialist],
+    agents=[extrator_de_urls,agente_de_filtragem,agente_buscador,agente_BI],
     tasks=[task_documentation,task_reviewer, task_internet_researcher, databricks_reviewer],
     process=Process.sequential,
     verbose=False

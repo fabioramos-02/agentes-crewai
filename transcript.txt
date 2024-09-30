@@ -1,0 +1,20 @@
+ProgWeb - Revisão Tópico 3 - YouTube
+https://www.youtube.com/watch?v=96Hn6SLeNVk&t=2s
+
+Transcript:
+(00:00) Agora o tópico três: linguagem de marcação. A parte de CSS não precisa ser estudada para a prova, já que será praticada nos exercícios.
+(00:36) Não se preocupe com código e posicionamento de CSS, isso não cairá na prova. O foco será na parte de linguagem de marcação.
+(01:09) O que é uma linguagem de marcação: combina texto com informações adicionais, delimitando componentes no documento. Exemplos incluem SGML, HTML, XML.
+(01:45) Explicação sobre HTML: uma linguagem de marcação de hipertexto usada para criar documentos com ligações para outros documentos. Importante: não deve ser usada para estilização (isso é feito pelo CSS).
+(02:58) Separação entre conteúdo (HTML) e apresentação (CSS). O HTML define estrutura e conteúdo, enquanto o CSS define layout e estilo.
+(03:35) História do HTML: Introduzido em 1991, expandido entre 1993 e 1997. O HTML 4.01 ainda é amplamente utilizado, mas os novos códigos devem ser desenvolvidos no HTML5.
+(04:49) A importância de entender Server-Side e Client-Side. No Server-Side ficam linguagens como PHP, ASP, e Java, enquanto o Client-Side lida com HTML, CSS e JavaScript.
+(06:09) O Client-Side roda no dispositivo do usuário (computador, celular), enquanto o Server-Side roda no servidor, respondendo às requisições do cliente.
+(07:58) Estrutura do HTML: todo elemento é delimitado por uma tag de abertura e uma de fechamento. Não é necessário focar em detalhes práticos para a prova, mas sim na compreensão da estrutura do HTML e sua função.
+(09:10) Elementos em desuso no HTML, como tags de estilização (<b>, <i>) foram substituídos por elementos semânticos como <strong> e <em>.
+(10:31) O HTML segue uma DTD (Definição de Tipo de Documento). No HTML 4.01 existem três tipos: strict, transitional, e frameset. No HTML5, há apenas um DTD simples: <!DOCTYPE html>.
+(13:22) Importância da semântica no HTML: usar os elementos corretos (como listas, cabeçalhos, e rodapés) para trazer significado ao conteúdo.
+(15:53) Design sem tabelas: as tabelas no HTML devem ser usadas apenas para conteúdo tabular, não para layout. Para layout, devem-se usar divs e outros elementos adequados.
+(17:09) Elementos semânticos introduzidos no HTML5: <header>, <nav>, <article>, <section>, <footer>, etc. Cada um tem uma função específica e traz significado ao conteúdo.
+(18:49) Elementos como <div> e <span> não trazem semântica, apenas layout. Elementos semânticos, como <figure>, <figcaption>, <audio>, e <video> trazem mais significado ao conteúdo.
+(20:00) Outros exemplos de elementos semânticos que ajudam a estruturar melhor o conteúdo, como <meter>, <progress>, e elementos de formulário.

@@ -7,7 +7,7 @@ from crewai_tools import YoutubeVideoSearchTool, SerperDevTool
 os.environ["OPENAI_API_KEY"] = get_openai_api_key()
 os.environ["SERPER_API_KEY"] = get_serper_api_key()
 os.environ["CLAUDE_KEY"] = get_claude_api_key()
-
+#teste
 # Tools
 youtube_tool = YoutubeVideoSearchTool()
 serper_dev = SerperDevTool()

@@ -57,3 +57,18 @@ def call_claude_api(prompt: str) -> str:
     """
     client = ClaudeAPIClient(api_key=get_claude_api_key())
     return client.call_claude(prompt) #teste
+
+
+@tool
+def extrair_urls_do_site(url: str, profundidade: int) -> list:
+    """
+    Extrai URLs de um site até uma certa profundidade.
+
+    Args:
+    - url (str): URL inicial para o crawling.
+    - profundidade (int): Profundidade máxima de links a serem extraídos.
+
+    Returns:
+    - list: Lista de URLs extraídas.
+    """
+    return list(extrair_links(url, profundidade=profundidade))

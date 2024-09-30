@@ -1,6 +1,6 @@
 import os
 from tokens import get_openai_api_key, get_serper_api_key, get_claude_api_key
-from tools import call_claude_api
+from tools import call_claude_api, extrair_urls_do_site
 from crewai import Agent, Task, Crew, Process
 from crewai_tools import YoutubeVideoSearchTool, SerperDevTool
 
@@ -13,14 +13,15 @@ youtube_tool = YoutubeVideoSearchTool()
 serper_dev = SerperDevTool()
 claude_tool = call_claude_api
 
-agente_extrator_de_urls  = Agent(
+agente_extrator_de_urls = Agent(
     role='Responsável por extrair URLs de um site.',
     goal='Fazer o crawling do site alvo e extrair todas as URLs válidas, excluindo links externos e arquivos de mídia.',
-    backstory="Especialista em web crawling com profundo entendimento das estruturas da web, capaz de navegar eficientemente pelo DOM para extrair informações necessárias, evitando links inválidos ou redundantes.",
+    backstory="Especialista em web crawling com profundo entendimento das estruturas da web.",
     memory=False,
     verbose=True,
     model='gpt-4o-mini',
-    allow_delegation = False
+    allow_delegation=False,
+    tools=[extrair_urls_do_site]  # Integrando a ferramenta
 )
 
 agente_de_filtragem = Agent(
@@ -79,13 +80,14 @@ agente_revisor  = Agent(
     allow_delegation = False
 )
 #Definição de TASKS
-#task para o agente de extração de urls
+# Definindo a task para o agente de extração de URLs
 task_extracao_urls = Task(
-    description="Documentar a transcrição a seguir: {transcript}",
-    expected_output="Uma documentação em Markdown bem detalhada.",
-    agent= agente_extrator_de_urls,
+    description="Extrair todas as URLs válidas do site fornecido.",
+    expected_output="Uma lista de URLs válidas extraídas do site alvo.",
+    agent=agente_extrator_de_urls,
     async_execution=False
 )
+
 #task para o agente de filtragem
 task_filtragem_urls = Task(
     description="O agente deve filtrar as URLs extraídas, eliminando mídia, documentos e links irrelevantes, deixando apenas aqueles úteis para análise posterior.",
@@ -135,8 +137,10 @@ crew = Crew(
 
 print("## Iniciando Crew")
 print('-------------------------------')
-transcript = open("transcript.txt", "r").read()
-result = crew.kickoff(inputs={'transcript': transcript})
+
+# Iniciando o processo de extração
+url_alvo = "https://www.setdig.ms.gov.br/"
+result = crew.kickoff(inputs={'url': url_alvo, 'profundidade': 2})
 print("#################")
 print("#####  Resultado final: ########")
 

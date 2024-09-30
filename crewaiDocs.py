@@ -13,7 +13,7 @@ youtube_tool = YoutubeVideoSearchTool()
 serper_dev = SerperDevTool()
 claude_tool = call_claude_api
 
-extrator_de_urls  = Agent(
+agente_extrator_de_urls  = Agent(
     role='Responsável por extrair URLs de um site.',
     goal='Fazer o crawling do site alvo e extrair todas as URLs válidas, excluindo links externos e arquivos de mídia.',
     backstory="Especialista em web crawling com profundo entendimento das estruturas da web, capaz de navegar eficientemente pelo DOM para extrair informações necessárias, evitando links inválidos ou redundantes.",
@@ -37,8 +37,8 @@ agente_de_filtragem = Agent(
 
 agente_buscador  = Agent(
     role='Buscar Imagens sem alt Text',
-    goal='Revisar a documentação gerada pelos Agentes e gerar um documento unico em Markdown',
-    backstory="Especialista em revisão de documentos e livros, dominio em Markdown e como deixar um visual mais agradavel",
+    goal='',
+    backstory="",
     memory=False,
     verbose=False,
     max_iter=10,
@@ -78,38 +78,57 @@ agente_revisor  = Agent(
     model='gpt-4o-mini',
     allow_delegation = False
 )
-
-task_documentation = Task(
+#Definição de TASKS
+#task para o agente de extração de urls
+task_extracao_urls = Task(
     description="Documentar a transcrição a seguir: {transcript}",
     expected_output="Uma documentação em Markdown bem detalhada.",
-    agent=documentation_specialist,
+    agent= agente_extrator_de_urls,
     async_execution=False
 )
-
-task_internet_researcher = Task(
-    description="Encontrar conteudos sobre o tema abordado na transcrição",
-    expected_output="Extração do conteudo das pesquisas que tenham relação com o resultado, gerar formato de Bullet Points resumidos e unificar as documentações gerando um markdown",
-    agent=ai_internet_researcher,
+#task para o agente de filtragem
+task_filtragem_urls = Task(
+    description="O agente deve filtrar as URLs extraídas, eliminando mídia, documentos e links irrelevantes, deixando apenas aqueles úteis para análise posterior.",
+    expected_output="Um conjunto de URLs filtradas, sem links irrelevantes como mídia ou documentos.",
+    agent=agente_de_filtragem,
     async_execution=False
 )
-
-task_reviewer = Task(
-    description="Revisar a documentação gerada anteriormente e propor melhorias",
-    expected_output="Juntar as documentações geradas e gerar um Markdown revisado e melhorado, adicionar as referencias utilizadas no final",
-    agent=doc_reviewer,
-    async_execution=False
-)
-
-databricks_reviewer = Task(
-    description="Revisar a documentação no nivel técnico",
+#task para o agente de busca de imagens
+task_buscar_imagens = Task(
+    description="Extrair da url as imagens sem alt text",
     expected_output="Documentação em Markdown revisada e melhorada tecnicamente, complementar informações tecnicas se for necessário, ajustar termos e jargões para o publico tecnico",
-    agent=databricks_specialist,
+    agent= agente_buscador,
     async_execution=False
 )
+
+# task_sugestao_altText = Task(
+#     description="O agente deve analisar as URLs extraídas e filtradas, sugerindo texto alternativo para as imagens sem alt text.",
+#     expected_output="Um relatório de sugestões, indicando links da imagem e a sugestão de texto alternativo.",
+#     agent= agente_de_sugestao,
+#     async_execution=False
+# )
+
+#task para o agente de BI
+task_BI = Task(
+    description="O agente deve processar e organizar as informações obtidas para gerar insights.",
+    expected_output="Um relatório detalhado com base nos dados extraídos e filtrados, identificando padrões e oportunidades de melhoria.",
+    agent=agente_BI,
+    async_execution=False
+)
+#task para o agente revisor
+task_revisao = Task(
+    description="O agente deve revisar as informações coletadas e sugerir correções.",
+    expected_output="Garantir que a documentação final esteja correta e bem estruturada, de acordo com as melhores práticas de redação.",
+    agent=agente_revisor,
+    async_execution=False
+)
+
+# Inicialização da Crew
+
 
 crew = Crew(
-    agents=[extrator_de_urls,agente_de_filtragem,agente_buscador,agente_BI],
-    tasks=[task_documentation,task_reviewer, task_internet_researcher, databricks_reviewer],
+    agents=[agente_extrator_de_urls,agente_de_filtragem,agente_buscador,agente_BI],
+    tasks=[task_extracao_urls, task_filtragem_urls, task_buscar_imagens],
     process=Process.sequential,
     verbose=False
 )

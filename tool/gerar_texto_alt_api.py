@@ -38,8 +38,8 @@ def gerar_texto_alternativo_com_api(imagem_nome, contexto):
         str: Texto alternativo gerado para a imagem.
     """
     # Contexto da solicitação para o GPT
-    prompt = f"Você é um especialista em acessibilidade. Descreva a imagem '{imagem_nome}' de maneira clara e objetiva para ser usada em um site governamental. A descrição deve ser simples e incluir o contexto da imagem, sem usar termos técnicos complexos."
-    
+    prompt = f"Descreva a imagem '{imagem_nome}' de maneira clara, simples e objetiva para ser usada em um site governamental. A descrição deve ser curta, sem se aprofundar em detalhes complexos, e com no máximo 30 palavras."
+
     try:
         # Chamar a API do OpenAI usando ChatCompletion
         resposta = openai.ChatCompletion.create(
@@ -48,9 +48,9 @@ def gerar_texto_alternativo_com_api(imagem_nome, contexto):
                 {"role": "system", "content": "Você é um especialista em acessibilidade de sites governamentais."},
                 {"role": "user", "content": prompt},
             ],
-            max_tokens=100,
+            max_tokens=50,  # Limite de tokens para manter as descrições curtas
             n=1,
-            temperature=0.7,
+            temperature=0.5,  # Reduzir a temperatura para respostas mais objetivas
         )
         
         # Acessar o texto gerado na estrutura correta

@@ -3,6 +3,8 @@ from tool.geraldo import gerar_resposta_json
 from tool.fabio import analisa  # Importar a função analisa do arquivo fabio.py
 from tool.baixar_img import baixar  # Função para baixar as imagens
 from tool.auditoria import gerar_relatorio_auditoria  # Importar a função gerar_relatorio_auditoria do arquivo fabio.py
+from tool.gerar_texto_alt_api import gerar_texto_alternativo_com_api  # Importar a função de gerar texto alternativo
+import os
 
 # Solicitar a URL e a profundidade ao usuário
 url_alvo = input("Digite a URL do site para extração de links: ")
@@ -17,6 +19,12 @@ resultado_analises = {}
 # Criar um conjunto para armazenar as URLs das imagens já baixadas
 imagens_baixadas = set()
 
+# Caminho para a pasta de imagens
+pasta_img = "img"
+
+# Criar a pasta se não existir
+os.makedirs(pasta_img, exist_ok=True)
+
 for url_info in entrada_dict['urls']:
     link = url_info['link']
     try:
@@ -29,24 +37,25 @@ for url_info in entrada_dict['urls']:
             # Verificar se a URL já foi baixada
             if img_url not in imagens_baixadas:
                 nome_arquivo = img_url.split('/')[-1]  # Nome da imagem com base na URL
-                baixar(f"{img_url}, {nome_arquivo}")
+                
+                # Baixar a imagem e salvar na pasta 'img'
+                baixar(img_url, nome_arquivo)
+                
+                # Gerar o texto alternativo usando a função da API GPT
+                texto_alternativo = gerar_texto_alternativo_com_api(nome_arquivo, contexto="governamental")
+                
+                # Exibir o texto alternativo gerado
+                print(f"Sugestão de texto alternativo para {nome_arquivo}: {texto_alternativo}")
                 
                 # Adicionar a URL da imagem ao conjunto de imagens baixadas
                 imagens_baixadas.add(img_url)
-            # else:
-                # print(f"Imagem já foi baixada: {img_url}")
         
         resultado_analises[link] = analise_resultado
     except Exception as e:
         print(f"Erro ao analisar {link}: {e}")
 
-
-
 # Converter o dicionário de resultados em JSON
 resultado_json = json.dumps(resultado_analises, indent=4)
 
-# Exibir o resultado em formato JSON
-# print(resultado_json)
-
-gerar_relatorio_auditoria(resultado_analises)  # Gerar o relatório de auditoria
-
+# Gerar o relatório de auditoria
+gerar_relatorio_auditoria(resultado_analises)

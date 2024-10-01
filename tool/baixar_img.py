@@ -14,6 +14,6 @@ def baixar(img_url, nome_arquivo):
         with open(caminho_arquivo, 'wb') as arquivo:
             for chunk in resposta.iter_content(1024):
                 arquivo.write(chunk)
-        print(f"Imagem baixada e salva: {nome_arquivo}")
+        # print(f"Imagem baixada e salva: {nome_arquivo}")
     except Exception as e:
         print(f"Erro ao baixar a imagem {img_url}: {e}")

@@ -1,8 +1,10 @@
 import requests
 from tokens import get_claude_api_key
 from crewai_tools import tool
+
 from tool.geraldo import gerar_resposta_json
 from tool.fabio import analisa
+from tool.baixar_img import baixar
 class ClaudeAPIClient:
     def __init__(self, api_key, base_url="https://api.anthropic.com/v1"):
         self.api_key = api_key
@@ -59,14 +61,18 @@ def call_claude_api(prompt: str) -> str:
     client = ClaudeAPIClient(api_key=get_claude_api_key())
     return client.call_claude(prompt) #teste
 
-
+@tool
 def extrair_urls_do_site(prompt: str) -> str:
     """
     Extrai URLs de um site até uma certa profundidade.
+    O prompt será usado para gerar a URL e a profundidade.
     """
-    #extrair do prompt a url e a profundidade
-    url_inicial, profundidade = prompt.split(",")
-    return gerar_resposta_json(url_inicial, profundidade)
+    # Extrair a URL e a profundidade do prompt
+    try:
+        url_inicial, profundidade = prompt.split(",")
+        return gerar_resposta_json(url_inicial.strip(), int(profundidade.strip()))
+    except ValueError:
+        return "Erro: O prompt deve estar no formato 'url_inicial, profundidade'."
 
 
 def analyze_images(prompt: str) -> str:
@@ -83,3 +89,14 @@ def analyze_images(prompt: str) -> str:
     """
     #extrair do prompt a url
     return analisa(prompt)
+
+def baixar_images(prompt:str) -> str:
+    """
+    Baixa imagens de um site.
+    O prompt deve conter a URL da imagem e o nome do arquivo.
+    """
+    try:
+        img_url, nome_arquivo = prompt.split(",")
+        return baixar(img_url.strip(), nome_arquivo.strip())
+    except ValueError:
+        return "Erro: O prompt deve estar no formato 'url_da_imagem, nome_arquivo'."

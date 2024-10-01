@@ -1,52 +1,52 @@
-import os
-from tokens import get_openai_api_key, get_serper_api_key, get_claude_api_key
-from tools import extrair_urls_do_site  # Não chamar diretamente, apenas importar
-from crewai import Agent, Task, Crew, Process
+import json
+from tool.geraldo import gerar_resposta_json
+from tool.fabio import analisa  # Importar a função analisa do arquivo fabio.py
+from tool.baixar_img import baixar  # Função para baixar as imagens
+from tool.auditoria import gerar_relatorio_auditoria  # Importar a função gerar_relatorio_auditoria do arquivo fabio.py
 
-# Configurando as chaves de API
-os.environ["OPENAI_API_KEY"] = get_openai_api_key()
-os.environ["SERPER_API_KEY"] = get_serper_api_key()
-os.environ["CLAUDE_KEY"] = get_claude_api_key()
-
-# Instantiate tools
-extrator_tools = extrair_urls_do_site  # Referência à tool, sem chamá-la
-
-
-# Definindo o agente de extração de URLs
-agente_extrator_de_urls = Agent(
-    role='Responsável por extrair URLs de um site.',
-    goal='Fazer o crawling do site alvo e extrair todas as URLs válidas, excluindo links externos e arquivos de mídia.',
-    backstory="Especialista em web crawling com profundo entendimento das estruturas da web. que envia para o tools url_inicial, profundidade",
-    memory=False,
-    verbose=True,
-    model='gpt-4o-mini',
-    allow_delegation=False,
-    tools=[extrator_tools]  # A ferramenta é passada aqui como referência
-)
-
-
-# Definindo a task para o agente de extração de URLs
-task_extracao_urls = Task(
-    description="Extrair todas as URLs válidas do site fornecido. enviando para o tools url_inicial, profundidade",
-    expected_output="Uma dicionario json com todas as URLs válidas do site.",
-    agent=agente_extrator_de_urls,
-    async_execution=False
-)
-
-# Inicialização da Crew com o processo sequencial
-crew = Crew(
-    agents=[agente_extrator_de_urls],
-    tasks=[task_extracao_urls],
-    process=Process.sequential,
-    verbose=False
-)
-
-# Solicitar a URL ao usuário
+# Solicitar a URL e a profundidade ao usuário
 url_alvo = input("Digite a URL do site para extração de links: ")
+profundidade = 1  # Profundidade padrão
 
-# Iniciar o processo de extração com a URL fornecida
-result = crew.kickoff(inputs={'url_inicial' : url_alvo, 'profundidade': 2})
+# Iniciar o processo de extração com a URL e profundidade fornecidas    
+entrada = gerar_resposta_json(url_alvo, profundidade)
+entrada_dict = json.loads(entrada)  # Converter a string JSON para dicionário Python
 
-# Exibir o resultado final no console
-print("##### Resultado final: ########")
-print(result)
+# Criar um dicionário para armazenar os resultados da análise
+resultado_analises = {}
+# Criar um conjunto para armazenar as URLs das imagens já baixadas
+imagens_baixadas = set()
+
+for url_info in entrada_dict['urls']:
+    link = url_info['link']
+    try:
+        analise_resultado = analisa(link)
+        
+        # Verificar se há imagens sem o atributo 'alt' e tentar baixá-las
+        for imagem in analise_resultado['detalhes_imagens_sem_alt']:
+            img_url = imagem['img_url']
+            
+            # Verificar se a URL já foi baixada
+            if img_url not in imagens_baixadas:
+                nome_arquivo = img_url.split('/')[-1]  # Nome da imagem com base na URL
+                baixar(f"{img_url}, {nome_arquivo}")
+                
+                # Adicionar a URL da imagem ao conjunto de imagens baixadas
+                imagens_baixadas.add(img_url)
+            # else:
+                # print(f"Imagem já foi baixada: {img_url}")
+        
+        resultado_analises[link] = analise_resultado
+    except Exception as e:
+        print(f"Erro ao analisar {link}: {e}")
+
+
+
+# Converter o dicionário de resultados em JSON
+resultado_json = json.dumps(resultado_analises, indent=4)
+
+# Exibir o resultado em formato JSON
+# print(resultado_json)
+
+gerar_relatorio_auditoria(resultado_analises)  # Gerar o relatório de auditoria
+

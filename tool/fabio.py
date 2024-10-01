@@ -26,7 +26,7 @@ def analyze_images(html, site_url):
 def analisa(url):
     try:
         if not url:
-            print("Erro: O parâmetro 'url' é obrigatório.")
+            print("Erro: O parâmetro 'url' é obrigatorio.")
             return
 
         response = requests.get(url)
@@ -44,10 +44,10 @@ def analisa(url):
             "imagens_com_alt": imagens_com_alt,
             "qtd_imagens_sem_alt": qtd_imagens_sem_alt,
             "detalhes_imagens_sem_alt": imagens_sem_alt,
-            "message": "Análise completada!"
+            "message": "Analise completada!"
         }
 
-        print(response_body)  # Exibir o resultado no console
+        # print(response_body)  # Exibir o resultado no console
         return response_body
 
     except Exception as e:

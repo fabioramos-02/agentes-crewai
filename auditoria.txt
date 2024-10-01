@@ -1,0 +1,453 @@
+Relatório de Auditoria
+==================================================
+
+URL Analisada: https://www.setdig.ms.gov.br/noticias/
+Total de Imagens: 6
+Imagens com 'alt': 4
+Imagens sem 'alt': 2
+Detalhes das imagens sem 'alt':
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues-348x261.jpeg
+  Tag Completa: <img alt='' class='card-img-top wp-post-image' decoding='async' fetchpriority='high' height='261' src='https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues-348x261.jpeg' width='348'> </img>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: https://www.setdig.ms.gov.br/a-secretaria-executiva/
+Total de Imagens: 5
+Imagens com 'alt': 4
+Imagens sem 'alt': 1
+Detalhes das imagens sem 'alt':
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: https://www.setdig.ms.gov.br/#%21
+Total de Imagens: 34
+Imagens com 'alt': 12
+Imagens sem 'alt': 22
+Detalhes das imagens sem 'alt':
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/themes/fokma-3/assets/img/noticias.png
+  Tag Completa: <img src='https://www.setdig.ms.gov.br/wp-content/themes/fokma-3/assets/img/noticias.png' width='35px'> Notícias</img>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues.jpeg
+  Tag Completa: <img alt='' class='attachment- size- wp-post-image' decoding='async' fetchpriority='high' height='1092' sizes='(max-width: 1600px) 100vw, 1600px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues.jpeg' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues.jpeg 1600w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues-300x205.jpeg 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues-1024x699.jpeg 1024w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues-768x524.jpeg 768w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues-1536x1048.jpeg 1536w' style='opacity:0; max-height:410px; min-height:410px' width='1600'/>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/capa-post.png
+  Tag Completa: <img alt='' class='attachment- size- wp-post-image' decoding='async' height='342' sizes='(max-width: 636px) 100vw, 636px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/capa-post.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/capa-post.png 636w, https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/capa-post-300x161.png 300w' style='opacity:0; max-height:410px; min-height:410px' width='636'/>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/destaque.png
+  Tag Completa: <img alt='' class='attachment- size- wp-post-image' decoding='async' height='343' sizes='(max-width: 637px) 100vw, 637px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/destaque.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/destaque.png 637w, https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/destaque-300x162.png 300w' style='opacity:0; max-height:410px; min-height:410px' width='637'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/ABERTURA-1.png
+  Tag Completa: <img alt='' class='wp-image-4747' decoding='async' height='400' sizes='(max-width: 626px) 100vw, 626px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/ABERTURA-1.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/ABERTURA-1.png 626w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/ABERTURA-1-300x192.png 300w' width='626'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento.png
+  Tag Completa: <img alt='' class='wp-image-4748' decoding='async' height='398' sizes='(max-width: 626px) 100vw, 626px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento.png 626w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento-300x191.png 300w' width='626'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento-whatsapp.png
+  Tag Completa: <img alt='' class='wp-image-4749' decoding='async' height='398' sizes='(max-width: 626px) 100vw, 626px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento-whatsapp.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento-whatsapp.png 626w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento-whatsapp-300x191.png 300w' width='626'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Webmail.png
+  Tag Completa: <img alt='' class='wp-image-4750' decoding='async' height='398' sizes='(max-width: 626px) 100vw, 626px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Webmail.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Webmail.png 626w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Webmail-300x191.png 300w' width='626'/>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2024/08/icone-email.png
+  Tag Completa: <img alt='' class='wp-image-4967' decoding='async' height='50' src='https://www.setdig.ms.gov.br/wp-content/uploads/2024/08/icone-email.png' style='width: 50px;' width='50'/>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2024/08/icone-wordpress.png
+  Tag Completa: <img alt='' class='wp-image-4968' decoding='async' height='50' src='https://www.setdig.ms.gov.br/wp-content/uploads/2024/08/icone-wordpress.png' style='width: 50px;' width='50'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Legislacao.png
+  Tag Completa: <img alt='' class='wp-image-4752' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Legislacao.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Legislacao.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Legislacao-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Legislacao-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Ouvidoria.png
+  Tag Completa: <img alt='' class='wp-image-4753' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Ouvidoria.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Ouvidoria.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Ouvidoria-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Ouvidoria-348x210.png 348w' width='350'/>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogo-sti.png
+  Tag Completa: <img alt='' class='wp-image-4803' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogo-sti.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogo-sti.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogo-sti-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogo-sti-348x210.png 348w' style='object-fit:cover' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Alterar-senha.png
+  Tag Completa: <img alt='' class='wp-image-4755' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Alterar-senha.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Alterar-senha.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Alterar-senha-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Alterar-senha-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/VPN.png
+  Tag Completa: <img alt='' class='wp-image-4756' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/VPN.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/VPN.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/VPN-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/VPN-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Resetar-Senha.png
+  Tag Completa: <img alt='' class='wp-image-4757' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Resetar-Senha.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Resetar-Senha.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Resetar-Senha-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Resetar-Senha-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/MS-Indicadores.png
+  Tag Completa: <img alt='' class='wp-image-4758' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/MS-Indicadores.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/MS-Indicadores.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/MS-Indicadores-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/MS-Indicadores-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogosti.png
+  Tag Completa: <img alt='' class='wp-image-4797' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogosti.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogosti.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogosti-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogosti-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Acesso-aos-Sistemas.png
+  Tag Completa: <img alt='' class='wp-image-4760' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Acesso-aos-Sistemas.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Acesso-aos-Sistemas.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Acesso-aos-Sistemas-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Acesso-aos-Sistemas-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Consulta-Processos.png
+  Tag Completa: <img alt='' class='wp-image-4761' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Consulta-Processos.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Consulta-Processos.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Consulta-Processos-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Consulta-Processos-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Portal-de-Sistemas.png
+  Tag Completa: <img alt='' class='wp-image-4762' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Portal-de-Sistemas.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Portal-de-Sistemas.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Portal-de-Sistemas-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Portal-de-Sistemas-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: http://www.setdig.ms.gov.br/contatos
+Total de Imagens: 5
+Imagens com 'alt': 4
+Imagens sem 'alt': 1
+Detalhes das imagens sem 'alt':
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: http://www.setdig.ms.gov.br/vpn/
+Total de Imagens: 5
+Imagens com 'alt': 4
+Imagens sem 'alt': 1
+Detalhes das imagens sem 'alt':
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: https://www.setdig.ms.gov.br/legislacao/
+Total de Imagens: 5
+Imagens com 'alt': 4
+Imagens sem 'alt': 1
+Detalhes das imagens sem 'alt':
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: https://www.setdig.ms.gov.br/catalogo-setdig/
+Total de Imagens: 5
+Imagens com 'alt': 4
+Imagens sem 'alt': 1
+Detalhes das imagens sem 'alt':
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: http://www.setdig.ms.gov.br/alterar-senhas/
+Total de Imagens: 5
+Imagens com 'alt': 4
+Imagens sem 'alt': 1
+Detalhes das imagens sem 'alt':
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: https://www.setdig.ms.gov.br/legislacao-duvidas-fiscais-e-tributarias-4/
+Total de Imagens: 5
+Imagens com 'alt': 4
+Imagens sem 'alt': 1
+Detalhes das imagens sem 'alt':
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: http://www.setdig.ms.gov.br/#%21
+Total de Imagens: 34
+Imagens com 'alt': 12
+Imagens sem 'alt': 22
+Detalhes das imagens sem 'alt':
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/themes/fokma-3/assets/img/noticias.png
+  Tag Completa: <img src='https://www.setdig.ms.gov.br/wp-content/themes/fokma-3/assets/img/noticias.png' width='35px'> Notícias</img>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues.jpeg
+  Tag Completa: <img alt='' class='attachment- size- wp-post-image' decoding='async' fetchpriority='high' height='1092' sizes='(max-width: 1600px) 100vw, 1600px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues.jpeg' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues.jpeg 1600w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues-300x205.jpeg 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues-1024x699.jpeg 1024w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues-768x524.jpeg 768w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues-1536x1048.jpeg 1536w' style='opacity:0; max-height:410px; min-height:410px' width='1600'/>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/capa-post.png
+  Tag Completa: <img alt='' class='attachment- size- wp-post-image' decoding='async' height='342' sizes='(max-width: 636px) 100vw, 636px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/capa-post.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/capa-post.png 636w, https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/capa-post-300x161.png 300w' style='opacity:0; max-height:410px; min-height:410px' width='636'/>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/destaque.png
+  Tag Completa: <img alt='' class='attachment- size- wp-post-image' decoding='async' height='343' sizes='(max-width: 637px) 100vw, 637px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/destaque.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/destaque.png 637w, https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/destaque-300x162.png 300w' style='opacity:0; max-height:410px; min-height:410px' width='637'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/ABERTURA-1.png
+  Tag Completa: <img alt='' class='wp-image-4747' decoding='async' height='400' sizes='(max-width: 626px) 100vw, 626px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/ABERTURA-1.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/ABERTURA-1.png 626w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/ABERTURA-1-300x192.png 300w' width='626'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento.png
+  Tag Completa: <img alt='' class='wp-image-4748' decoding='async' height='398' sizes='(max-width: 626px) 100vw, 626px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento.png 626w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento-300x191.png 300w' width='626'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento-whatsapp.png
+  Tag Completa: <img alt='' class='wp-image-4749' decoding='async' height='398' sizes='(max-width: 626px) 100vw, 626px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento-whatsapp.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento-whatsapp.png 626w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento-whatsapp-300x191.png 300w' width='626'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Webmail.png
+  Tag Completa: <img alt='' class='wp-image-4750' decoding='async' height='398' sizes='(max-width: 626px) 100vw, 626px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Webmail.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Webmail.png 626w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Webmail-300x191.png 300w' width='626'/>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2024/08/icone-email.png
+  Tag Completa: <img alt='' class='wp-image-4967' decoding='async' height='50' src='https://www.setdig.ms.gov.br/wp-content/uploads/2024/08/icone-email.png' style='width: 50px;' width='50'/>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2024/08/icone-wordpress.png
+  Tag Completa: <img alt='' class='wp-image-4968' decoding='async' height='50' src='https://www.setdig.ms.gov.br/wp-content/uploads/2024/08/icone-wordpress.png' style='width: 50px;' width='50'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Legislacao.png
+  Tag Completa: <img alt='' class='wp-image-4752' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Legislacao.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Legislacao.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Legislacao-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Legislacao-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Ouvidoria.png
+  Tag Completa: <img alt='' class='wp-image-4753' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Ouvidoria.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Ouvidoria.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Ouvidoria-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Ouvidoria-348x210.png 348w' width='350'/>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogo-sti.png
+  Tag Completa: <img alt='' class='wp-image-4803' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogo-sti.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogo-sti.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogo-sti-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogo-sti-348x210.png 348w' style='object-fit:cover' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Alterar-senha.png
+  Tag Completa: <img alt='' class='wp-image-4755' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Alterar-senha.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Alterar-senha.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Alterar-senha-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Alterar-senha-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/VPN.png
+  Tag Completa: <img alt='' class='wp-image-4756' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/VPN.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/VPN.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/VPN-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/VPN-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Resetar-Senha.png
+  Tag Completa: <img alt='' class='wp-image-4757' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Resetar-Senha.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Resetar-Senha.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Resetar-Senha-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Resetar-Senha-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/MS-Indicadores.png
+  Tag Completa: <img alt='' class='wp-image-4758' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/MS-Indicadores.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/MS-Indicadores.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/MS-Indicadores-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/MS-Indicadores-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogosti.png
+  Tag Completa: <img alt='' class='wp-image-4797' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogosti.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogosti.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogosti-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogosti-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Acesso-aos-Sistemas.png
+  Tag Completa: <img alt='' class='wp-image-4760' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Acesso-aos-Sistemas.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Acesso-aos-Sistemas.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Acesso-aos-Sistemas-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Acesso-aos-Sistemas-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Consulta-Processos.png
+  Tag Completa: <img alt='' class='wp-image-4761' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Consulta-Processos.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Consulta-Processos.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Consulta-Processos-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Consulta-Processos-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Portal-de-Sistemas.png
+  Tag Completa: <img alt='' class='wp-image-4762' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Portal-de-Sistemas.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Portal-de-Sistemas.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Portal-de-Sistemas-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Portal-de-Sistemas-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: https://www.setdig.ms.gov.br/o-governo-de-mato-grosso-do-sul-possui-oficialmente-sua-politica-de-seguranca/
+Total de Imagens: 6
+Imagens com 'alt': 5
+Imagens sem 'alt': 1
+Detalhes das imagens sem 'alt':
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: https://www.setdig.ms.gov.br/sgi-participa-em-vitoria-es-do-secop-2021-o-mais-importante-evento-de-tic-para-a-gestao-publica-do-brasil/
+Total de Imagens: 6
+Imagens com 'alt': 5
+Imagens sem 'alt': 1
+Detalhes das imagens sem 'alt':
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: https://www.setdig.ms.gov.br/acessibilidade/
+Total de Imagens: 9
+Imagens com 'alt': 7
+Imagens sem 'alt': 2
+Detalhes das imagens sem 'alt':
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2021/10/Capa-5.png
+  Tag Completa: <img alt='' class='img-fluid mb-4 wp-post-image' decoding='async' fetchpriority='high' height='342' sizes='(max-width: 540px) 100vw, 540px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2021/10/Capa-5.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2021/10/Capa-5.png 540w, https://www.setdig.ms.gov.br/wp-content/uploads/2021/10/Capa-5-300x190.png 300w' width='540'> <div class='mb-5' id='content'>
+<ul class='list-inline list-unstyled' id='share'>
+<li class='list-inline-item'><strong><i class='fa fa-share-alt'></i> Compartilhar:</strong></li>
+<li class='list-inline-item'><a href='https://www.facebook.com/sharer/sharer.php?u=https://www.setdig.ms.gov.br/acessibilidade/' target='_blank'> <i class='fa fa-facebook-square'></i></a></li>
+<li class='list-inline-item'><a href='http://www.twitter.com/share?url=https://www.setdig.ms.gov.br/acessibilidade/'> <i class='fa fa-twitter-square'></i></a></li>
+<li class='list-inline-item'><a href='https://api.whatsapp.com/send?text=https://www.setdig.ms.gov.br/acessibilidade/'> <i class='fa fa-whatsapp'></i></a></li>
+<li class='list-inline-item'><a href='#'> <i class='fa fa-envelope'></i></a></li>
+</ul>
+<p><strong>ATENÇÃO GESTORES!</strong></p>
+<p>Ampliando a eficiência em acessibilidade dos nossos sites e atendendo ao eMAG – Modelo de Acessibilidade em Governo Eletrônico, a UCQI (Unidade de Comunicação e Qualidade da Interação) editou todas as imagens da home dos mesmos, fazendo toda a descrição, para que possam ser lidas por leitores de tela, tal como o <strong>Screen Reader*.</strong></p>
+<p>A partir de agora, solicitamos o comprometimento de vocês para que possam colaborar com aqueles que possuem deficiência visual, inserindo as imagens conforme demonstrado abaixo:</p>
+<p>1) Mídia / Adicionar nova</p>
+<p>2) Editar:<br/>
+<a href='http://www.setdig.ms.gov.br/wp-content/uploads/2021/10/1.jpg'><img alt='Print do upload de imagens da biblioteca de mídia do painel wordpress.' class='alignnone wp-image-3718 size-large' decoding='async' height='302' sizes='(max-width: 1024px) 100vw, 1024px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2021/10/1-1024x302.jpg' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2021/10/1-1024x302.jpg 1024w, https://www.setdig.ms.gov.br/wp-content/uploads/2021/10/1-300x88.jpg 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2021/10/1-768x226.jpg 768w, https://www.setdig.ms.gov.br/wp-content/uploads/2021/10/1-1536x453.jpg 1536w, https://www.setdig.ms.gov.br/wp-content/uploads/2021/10/1.jpg 1920w' width='1024'/></a></p>
+<p>3) Inserir detalhadamente o que consta na foto:<br/>
+<a href='http://www.setdig.ms.gov.br/wp-content/uploads/2021/10/2.jpg'><img alt='print do campo onde descreve a imagem que foi feita o upload na biblioteca de mídia no painel wordpress.' class='alignnone wp-image-3719 size-large' decoding='async' height='442' sizes='(max-width: 1024px) 100vw, 1024px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2021/10/2-1024x442.jpg' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2021/10/2-1024x442.jpg 1024w, https://www.setdig.ms.gov.br/wp-content/uploads/2021/10/2-300x129.jpg 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2021/10/2-768x331.jpg 768w, https://www.setdig.ms.gov.br/wp-content/uploads/2021/10/2-1536x662.jpg 1536w, https://www.setdig.ms.gov.br/wp-content/uploads/2021/10/2.jpg 1920w' width='1024'/></a></p>
+<p>4) Copiar a mesma descrição nos outros dois campos assinalados abaixo:<br/>
+<a href='http://www.setdig.ms.gov.br/wp-content/uploads/2021/10/3.jpg'><img alt='print dos campos onde descreve a imagem que foi feita o upload na biblioteca de mídia no painel wordpress.' class='alignnone wp-image-3720 size-large' decoding='async' height='576' loading='lazy' sizes='(max-width: 1024px) 100vw, 1024px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2021/10/3-1024x576.jpg' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2021/10/3-1024x576.jpg 1024w, https://www.setdig.ms.gov.br/wp-content/uploads/2021/10/3-300x169.jpg 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2021/10/3-768x432.jpg 768w, https://www.setdig.ms.gov.br/wp-content/uploads/2021/10/3-1536x864.jpg 1536w, https://www.setdig.ms.gov.br/wp-content/uploads/2021/10/3.jpg 1920w' width='1024'/></a></p>
+<p>5) Atualizar</p>
+<p>*SCREEN READER</p>
+<p>É um aplicativo de software que converte um texto em um discurso sintetizado, permitindo o usuário ouvir em vez de visualizar o conteúdo da Internet.<br/>
+Em termos mais formais, o conteúdo mostrado na tela é enviado para uma saída independente da presença de um monitor de vídeo.</p>
+<p><strong>Agradecemos a compreensão e comprometimento de todos.</strong></p>
+</div>
+</img>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: https://www.setdig.ms.gov.br/infovia-digital-e-finalista-de-premio-nacional-de-excelencia-em-gestao-publica/
+Total de Imagens: 6
+Imagens com 'alt': 4
+Imagens sem 'alt': 2
+Detalhes das imagens sem 'alt':
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues.jpeg
+  Tag Completa: <img alt='' class='img-fluid mb-4 wp-post-image' decoding='async' fetchpriority='high' height='1092' sizes='(max-width: 1600px) 100vw, 1600px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues.jpeg' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues.jpeg 1600w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues-300x205.jpeg 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues-1024x699.jpeg 1024w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues-768x524.jpeg 768w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues-1536x1048.jpeg 1536w' width='1600'> <div class='mb-5' id='content'>
+<ul class='list-inline list-unstyled' id='share'>
+<li class='list-inline-item'><strong><i class='fa fa-share-alt'></i> Compartilhar:</strong></li>
+<li class='list-inline-item'><a href='https://www.facebook.com/sharer/sharer.php?u=https://www.setdig.ms.gov.br/infovia-digital-e-finalista-de-premio-nacional-de-excelencia-em-gestao-publica/' target='_blank'> <i class='fa fa-facebook-square'></i></a></li>
+<li class='list-inline-item'><a href='http://www.twitter.com/share?url=https://www.setdig.ms.gov.br/infovia-digital-e-finalista-de-premio-nacional-de-excelencia-em-gestao-publica/'> <i class='fa fa-twitter-square'></i></a></li>
+<li class='list-inline-item'><a href='https://api.whatsapp.com/send?text=https://www.setdig.ms.gov.br/infovia-digital-e-finalista-de-premio-nacional-de-excelencia-em-gestao-publica/'> <i class='fa fa-whatsapp'></i></a></li>
+<li class='list-inline-item'><a href='#'> <i class='fa fa-envelope'></i></a></li>
+</ul>
+<p>O projeto sul-mato-grossende de Infovia Digital, estruturado pelo EPE (Escritório de Parcerias Estratégicas) e executado pela Setdig (Secretaria-Executiva de Transformação Digital), é um dos 15 finalistas do Prêmio Conip de Excelência em Gestão Pública de 2024, que identifica e divulga iniciativas de modernização que contribuam para o fortalecimento da cidadania e da gestão pública, e reconhece as melhores ações no campo da tecnologia da informação.</p>
+<p>Trabalhos do Brasil inteiro foram submetidos ao prêmio e o de Mato Grosso do Sul está entre os selecionados. As avaliações serão realizadas por especialistas em tecnologia da informação e inovação de todo o Brasil. Os ganhadores serão anunciados durante a cerimônia de premiação, que acontece no dia 29 de agosto, em Brasília (DF).</p>
+<p>“É extremamente gratificante ser recomendado a nível nacional. Mostra que o Estado está no caminho certo em seu Plano de Governo, pois um dos pilares de Governo Digital é a conectividade. Ressalto ainda que um dos pontos de excelência está no time altamente qualificado a frente da execução da PPP (Parceria Público-Privada) da Setdig e do EPE, ambos vinculados à Segov (Secretária de Estado de Governo e Gestão Estratégica)”, avalia o secretário-executivo de Transformação Digital, Marcos Teixeira.</p>
+<p>Os desafios da implantação do projeto em todo o território estadual demanda estratégia e governança, complementa Marcos Teixeira. “Os desafios são muitos, pois é uma operação de grande magnitude, que exige uma governança especializada e logística operacional altamente qualificada que beneficiará diretamente toda a administração do Executivo estadual, além dos municípios e o próprio setor privado”, conclui o secretário.</p>
+<p>Quem também comenta sobre a importância do prêmio e da implantação da Infovia Digital em Mato Grosso do Sul é o secretário estadual de Governo e Gestão Estratégica, Rodrigo Perez. O digital é um dos pilares da gestão de Eduardo Riedel e assim é de absoluta relevância.</p>
+<p>“Gestão e governança precisam fazer sentido numa aplicação prática na vida do cidadão, e esta tem sido nossa premissa, de fazer com que toda gestão atue de forma a tornar melhor a vida do cidadão no seu dia a dia. Esse reconhecimento nacional é mais uma importante demonstração de que o Governo de Mato Grosso do Sul tem trabalhado muito focado em resultados efetivos e na implementação de políticas públicas positivas em prol da população”, frisa Perez.</p>
+<p><strong>O que é a Infovia Digital?</strong></p>
+<p>A Infovia prevê a instalação de 7 mil quilômetros de rede de fibra óptica dedicada e de alta velocidade para todos os 79 municípios sul-mato-grossenses, conectando os 1.649 pontos de acesso do Governo do Estado em rede, com 15.000 ramais de telefonia, 129 câmeras PTZ e 28 câmeras OCR, além de wi-fi 129 praças públicas em todo Estado.</p>
+<p>Em Campo Grande serão 280 pontos estatais interligados, 236 já estão ativos dentro da rede de conectividade. Além das oito câmeras de monitoramento remoto (OCR), que estão em pleno funcionamento auxiliando os serviços de segurança pública e socorro. Também serão conectadas cinco praças públicas que estão com infraestrutura implantada e aguardam apenas a ativação. Tais números apontam para 98% de conclusão da Infovia na Capital.</p>
+<p><em>Laine Breda, Comunicação EPE</em><br/><em>Foto: Edemir Rodrigues</em></p>
+</div>
+</img>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: https://www.setdig.ms.gov.br/comite-lgpd-e-unidade-de-gestao-de-seguranca-da-informacao-apresentam-cartilha-elaborada-pela-sgi/
+Total de Imagens: 6
+Imagens com 'alt': 4
+Imagens sem 'alt': 2
+Detalhes das imagens sem 'alt':
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/destaque.png
+  Tag Completa: <img alt='' class='img-fluid mb-4 wp-post-image' decoding='async' fetchpriority='high' height='343' sizes='(max-width: 637px) 100vw, 637px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/destaque.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/destaque.png 637w, https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/destaque-300x162.png 300w' width='637'> <div class='mb-5' id='content'>
+<ul class='list-inline list-unstyled' id='share'>
+<li class='list-inline-item'><strong><i class='fa fa-share-alt'></i> Compartilhar:</strong></li>
+<li class='list-inline-item'><a href='https://www.facebook.com/sharer/sharer.php?u=https://www.setdig.ms.gov.br/comite-lgpd-e-unidade-de-gestao-de-seguranca-da-informacao-apresentam-cartilha-elaborada-pela-sgi/' target='_blank'> <i class='fa fa-facebook-square'></i></a></li>
+<li class='list-inline-item'><a href='http://www.twitter.com/share?url=https://www.setdig.ms.gov.br/comite-lgpd-e-unidade-de-gestao-de-seguranca-da-informacao-apresentam-cartilha-elaborada-pela-sgi/'> <i class='fa fa-twitter-square'></i></a></li>
+<li class='list-inline-item'><a href='https://api.whatsapp.com/send?text=https://www.setdig.ms.gov.br/comite-lgpd-e-unidade-de-gestao-de-seguranca-da-informacao-apresentam-cartilha-elaborada-pela-sgi/'> <i class='fa fa-whatsapp'></i></a></li>
+<li class='list-inline-item'><a href='#'> <i class='fa fa-envelope'></i></a></li>
+</ul>
+<p>Ontem o comitê para implementação e diretrizes para LGPD – Lei Geral de Proteção de dados – apresentou para os encarregados de dados pessoais do governo do Estado de MS no auditório da SEDHAST a nova cartilha para apoiar os órgãos nos passos para mapeamento e fluxo de dados pessoais e inventário dos mesmos.</p>
+<p>A cartilha foi elaborada pelo comitê LGPD e UGSI – Unidade de Gestão de Segurança da Informação – e a diagramação foi feita pela UCQI – Unidade de Comunicação e Qualidade da Interação.</p>
+<p>Para acessar a cartilha completa, <a href='http://www.setdig.ms.gov.br/wp-content/uploads/2022/06/INVENTARIO-DADOS-PESSOAIS-COM-PAGINACAO.pdf'>clique aqui.</a></p>
+</div>
+</img>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: https://www.setdig.ms.gov.br/manuais-e-treinamentos-da-carta-de-servicos/
+Total de Imagens: 9
+Imagens com 'alt': 4
+Imagens sem 'alt': 5
+Detalhes das imagens sem 'alt':
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2024/04/linguagem-cidada.png
+  Tag Completa: <img alt='' class='wp-image-4902' decoding='async' fetchpriority='high' height='300' sizes='(max-width: 300px) 100vw, 300px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2024/04/linguagem-cidada.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2024/04/linguagem-cidada.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/04/linguagem-cidada-150x150.png 150w' width='300'/>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2024/04/carta-de-servicos.png
+  Tag Completa: <img alt='' class='wp-image-4903' decoding='async' height='300' sizes='(max-width: 300px) 100vw, 300px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2024/04/carta-de-servicos.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2024/04/carta-de-servicos.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/04/carta-de-servicos-150x150.png 150w' width='300'/>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2024/04/admin-servicos.png
+  Tag Completa: <img alt='' class='wp-image-4907' decoding='async' height='300' sizes='(max-width: 300px) 100vw, 300px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2024/04/admin-servicos.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2024/04/admin-servicos.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/04/admin-servicos-150x150.png 150w' width='300'/>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2024/04/report.png
+  Tag Completa: <img alt='' class='wp-image-4908' decoding='async' height='300' loading='lazy' sizes='(max-width: 300px) 100vw, 300px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2024/04/report.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2024/04/report.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/04/report-150x150.png 150w' width='300'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: https://www.setdig.ms.gov.br/
+Total de Imagens: 34
+Imagens com 'alt': 12
+Imagens sem 'alt': 22
+Detalhes das imagens sem 'alt':
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/themes/fokma-3/assets/img/noticias.png
+  Tag Completa: <img src='https://www.setdig.ms.gov.br/wp-content/themes/fokma-3/assets/img/noticias.png' width='35px'> Notícias</img>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues.jpeg
+  Tag Completa: <img alt='' class='attachment- size- wp-post-image' decoding='async' fetchpriority='high' height='1092' sizes='(max-width: 1600px) 100vw, 1600px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues.jpeg' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues.jpeg 1600w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues-300x205.jpeg 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues-1024x699.jpeg 1024w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues-768x524.jpeg 768w, https://www.setdig.ms.gov.br/wp-content/uploads/2024/07/COR-da-INFOVIA_Edemir-Rodrigues-1536x1048.jpeg 1536w' style='opacity:0; max-height:410px; min-height:410px' width='1600'/>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/capa-post.png
+  Tag Completa: <img alt='' class='attachment- size- wp-post-image' decoding='async' height='342' sizes='(max-width: 636px) 100vw, 636px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/capa-post.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/capa-post.png 636w, https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/capa-post-300x161.png 300w' style='opacity:0; max-height:410px; min-height:410px' width='636'/>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/destaque.png
+  Tag Completa: <img alt='' class='attachment- size- wp-post-image' decoding='async' height='343' sizes='(max-width: 637px) 100vw, 637px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/destaque.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/destaque.png 637w, https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/destaque-300x162.png 300w' style='opacity:0; max-height:410px; min-height:410px' width='637'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/ABERTURA-1.png
+  Tag Completa: <img alt='' class='wp-image-4747' decoding='async' height='400' sizes='(max-width: 626px) 100vw, 626px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/ABERTURA-1.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/ABERTURA-1.png 626w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/ABERTURA-1-300x192.png 300w' width='626'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento.png
+  Tag Completa: <img alt='' class='wp-image-4748' decoding='async' height='398' sizes='(max-width: 626px) 100vw, 626px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento.png 626w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento-300x191.png 300w' width='626'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento-whatsapp.png
+  Tag Completa: <img alt='' class='wp-image-4749' decoding='async' height='398' sizes='(max-width: 626px) 100vw, 626px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento-whatsapp.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento-whatsapp.png 626w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Atendimento-whatsapp-300x191.png 300w' width='626'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Webmail.png
+  Tag Completa: <img alt='' class='wp-image-4750' decoding='async' height='398' sizes='(max-width: 626px) 100vw, 626px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Webmail.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Webmail.png 626w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Webmail-300x191.png 300w' width='626'/>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2024/08/icone-email.png
+  Tag Completa: <img alt='' class='wp-image-4967' decoding='async' height='50' src='https://www.setdig.ms.gov.br/wp-content/uploads/2024/08/icone-email.png' style='width: 50px;' width='50'/>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2024/08/icone-wordpress.png
+  Tag Completa: <img alt='' class='wp-image-4968' decoding='async' height='50' src='https://www.setdig.ms.gov.br/wp-content/uploads/2024/08/icone-wordpress.png' style='width: 50px;' width='50'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Legislacao.png
+  Tag Completa: <img alt='' class='wp-image-4752' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Legislacao.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Legislacao.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Legislacao-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Legislacao-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Ouvidoria.png
+  Tag Completa: <img alt='' class='wp-image-4753' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Ouvidoria.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Ouvidoria.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Ouvidoria-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Ouvidoria-348x210.png 348w' width='350'/>
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogo-sti.png
+  Tag Completa: <img alt='' class='wp-image-4803' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogo-sti.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogo-sti.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogo-sti-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogo-sti-348x210.png 348w' style='object-fit:cover' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Alterar-senha.png
+  Tag Completa: <img alt='' class='wp-image-4755' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Alterar-senha.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Alterar-senha.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Alterar-senha-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Alterar-senha-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/VPN.png
+  Tag Completa: <img alt='' class='wp-image-4756' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/VPN.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/VPN.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/VPN-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/VPN-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Resetar-Senha.png
+  Tag Completa: <img alt='' class='wp-image-4757' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Resetar-Senha.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Resetar-Senha.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Resetar-Senha-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Resetar-Senha-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/MS-Indicadores.png
+  Tag Completa: <img alt='' class='wp-image-4758' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/MS-Indicadores.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/MS-Indicadores.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/MS-Indicadores-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/MS-Indicadores-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogosti.png
+  Tag Completa: <img alt='' class='wp-image-4797' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogosti.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogosti.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogosti-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/catalogosti-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Acesso-aos-Sistemas.png
+  Tag Completa: <img alt='' class='wp-image-4760' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Acesso-aos-Sistemas.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Acesso-aos-Sistemas.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Acesso-aos-Sistemas-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Acesso-aos-Sistemas-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Consulta-Processos.png
+  Tag Completa: <img alt='' class='wp-image-4761' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Consulta-Processos.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Consulta-Processos.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Consulta-Processos-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Consulta-Processos-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Portal-de-Sistemas.png
+  Tag Completa: <img alt='' class='wp-image-4762' decoding='async' height='210' sizes='(max-width: 350px) 100vw, 350px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Portal-de-Sistemas.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Portal-de-Sistemas.png 350w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Portal-de-Sistemas-300x180.png 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/10/Portal-de-Sistemas-348x210.png 348w' width='350'/>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: https://www.setdig.ms.gov.br/guia-digital-governo-ms-gdgovms/
+Total de Imagens: 6
+Imagens com 'alt': 4
+Imagens sem 'alt': 2
+Detalhes das imagens sem 'alt':
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/capa-post.png
+  Tag Completa: <img alt='' class='img-fluid mb-4 wp-post-image' decoding='async' fetchpriority='high' height='342' sizes='(max-width: 636px) 100vw, 636px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/capa-post.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/capa-post.png 636w, https://www.setdig.ms.gov.br/wp-content/uploads/2022/06/capa-post-300x161.png 300w' width='636'> <div class='mb-5' id='content'>
+<ul class='list-inline list-unstyled' id='share'>
+<li class='list-inline-item'><strong><i class='fa fa-share-alt'></i> Compartilhar:</strong></li>
+<li class='list-inline-item'><a href='https://www.facebook.com/sharer/sharer.php?u=https://www.setdig.ms.gov.br/guia-digital-governo-ms-gdgovms/' target='_blank'> <i class='fa fa-facebook-square'></i></a></li>
+<li class='list-inline-item'><a href='http://www.twitter.com/share?url=https://www.setdig.ms.gov.br/guia-digital-governo-ms-gdgovms/'> <i class='fa fa-twitter-square'></i></a></li>
+<li class='list-inline-item'><a href='https://api.whatsapp.com/send?text=https://www.setdig.ms.gov.br/guia-digital-governo-ms-gdgovms/'> <i class='fa fa-whatsapp'></i></a></li>
+<li class='list-inline-item'><a href='#'> <i class='fa fa-envelope'></i></a></li>
+</ul>
+<h2 class='wp-block-heading'>Apresentamos para vocês gestores o <a href='https://guiadigital.ms.gov.br/' rel='noreferrer noopener' target='_blank'>guiadigital.ms.gov.br</a></h2>
+<p></p>
+<p>O <strong>GDGovMS</strong> foi criado com o intuito de facilitar a gestão dos sites do Governo do Estado de MS, esclarecer dúvidas, expor as inúmeras possibilidades oferecidas pelos temas desenvolvidos pela UCQI – Unidade de Comunicação e Qualidade da Informação da SGI, orientar caminhos didaticamente, além de abrir um canal mais direto de contato com vocês.</p>
+<p></p>
+<p><br/><strong>Queremos saber seu feedback para continuar oferecendo melhorias. Responda a pesquisa rápida clicando no botão abaixo e nos conte sua opinião.</strong></p>
+<p></p>
+<div class='wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-1 wp-block-buttons-is-layout-flex'>
+<div class='wp-block-button has-custom-width wp-block-button__width-100 is-style-fill'><a class='wp-block-button__link has-vivid-cyan-blue-background-color has-background' href='https://guiadigital.ms.gov.br/feedback-2/' rel='noreferrer noopener' style='border-radius:0px' target='_blank'>Clique Aqui</a></div>
+</div>
+</div>
+</img>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: https://www.setdig.ms.gov.br/aplicativo-ms-digital-disponibiliza-carteirinha-de-vacinacao/
+Total de Imagens: 6
+Imagens com 'alt': 4
+Imagens sem 'alt': 2
+Detalhes das imagens sem 'alt':
+- URL da Imagem: https://www.setdig.ms.gov.br/wp-content/uploads/2020/05/MG_7517a.jpg
+  Tag Completa: <img alt='' class='img-fluid mb-4 wp-post-image' decoding='async' fetchpriority='high' height='1063' sizes='(max-width: 1920px) 100vw, 1920px' src='https://www.setdig.ms.gov.br/wp-content/uploads/2020/05/MG_7517a.jpg' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2020/05/MG_7517a.jpg 1920w, https://www.setdig.ms.gov.br/wp-content/uploads/2020/05/MG_7517a-300x166.jpg 300w, https://www.setdig.ms.gov.br/wp-content/uploads/2020/05/MG_7517a-1024x567.jpg 1024w, https://www.setdig.ms.gov.br/wp-content/uploads/2020/05/MG_7517a-768x425.jpg 768w, https://www.setdig.ms.gov.br/wp-content/uploads/2020/05/MG_7517a-1536x850.jpg 1536w' width='1920'> <div class='mb-5' id='content'>
+<ul class='list-inline list-unstyled' id='share'>
+<li class='list-inline-item'><strong><i class='fa fa-share-alt'></i> Compartilhar:</strong></li>
+<li class='list-inline-item'><a href='https://www.facebook.com/sharer/sharer.php?u=https://www.setdig.ms.gov.br/aplicativo-ms-digital-disponibiliza-carteirinha-de-vacinacao/' target='_blank'> <i class='fa fa-facebook-square'></i></a></li>
+<li class='list-inline-item'><a href='http://www.twitter.com/share?url=https://www.setdig.ms.gov.br/aplicativo-ms-digital-disponibiliza-carteirinha-de-vacinacao/'> <i class='fa fa-twitter-square'></i></a></li>
+<li class='list-inline-item'><a href='https://api.whatsapp.com/send?text=https://www.setdig.ms.gov.br/aplicativo-ms-digital-disponibiliza-carteirinha-de-vacinacao/'> <i class='fa fa-whatsapp'></i></a></li>
+<li class='list-inline-item'><a href='#'> <i class='fa fa-envelope'></i></a></li>
+</ul>
+<p><em>Fonte MS POST</em></p>
+<h4>Nova funcionalidade foi desenvolvida pela Superintendência de Gestão de Informação junto com a área de tecnologia da informação da Secretaria de Estado de Saúde</h4>
+<p>Ao mesmo tempo que a imunização contra a Covid avança em Mato Grosso do Sul, também desenvolvem-se novas ferramentas de transparência para a população. Logo, quem já possui o aplicativo MS Digital instalado no aparelho celular agora pode consultar a <em>Carteira de Vacinação Digital</em> que está disponível na aba Saúde.</p>
+<p>Assim, a nova funcionalidade foi desenvolvida pela Superintendência de Gestão de Informação junto com a área de tecnologia da informação da Secretaria de Estado de Saúde (SES).</p>
+<h3>QR Code de validação</h3>
+<p>A princípio, no acesso ao Cartão de Vacinação, a primeira tela mostra os dados pessoais, seguida do QR Code de validação. E, na sequência, o <i>status</i> do usuário com todo detalhamento das doses ministradas: data, lote, vacina, código do vacinador, e estabelecimento de saúde.</p>
+<p>Para validar a autenticidade do cartão de vacinação, basta fazer a leitura do QR Code ou acessar o site do app clicando <strong><a href='https://www.msdigital.ms.gov.br/'>aqui</a> </strong>e, depois, preencher os dados solicitados.</p>
+<p>O ícone Saúde também permite o acesso e armazenamento do Cartão SUS de toda família no app. Além disso, dá acesso à consulta do endereço e telefone de qualquer unidade de saúde pública ou consultório particular do Estado.</p>
+<h3><b>MS Digital</b></h3>
+<p>O aplicativo MS Digital foi desenvolvido para simplificar o acesso aos principais serviços oferecidos pelo Governo do Estado ao cidadão.</p>
+<p>A ferramenta está disponível nas lojas virtuais multiplataforma e foi desenvolvida para ocupar pouco espaço nos aparelhos celulares. A ferramenta ocupa apenas 30 MB de armazenamento nos aparelhos telefônicos.</p>
+<p>Desenvolvido pela Superintendência de Gestão da Informação (SGI), o MS Digital conta com 86 serviços ativos e 38 mil usuários cadastrados. Desde o lançamento a ferramenta passa por aprimoramento contínuo e não há um limite de serviços a serem disponibilizados na plataforma, desde que simplifiquem a vida do cidadão sul-mato-grossense.</p>
+</div>
+</img>
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: http://www.setdig.ms.gov.br/ouvidoria-denuncias-elogios-e-reclamacoes/
+Total de Imagens: 5
+Imagens com 'alt': 4
+Imagens sem 'alt': 1
+Detalhes das imagens sem 'alt':
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+
+URL Analisada: https://www.setdig.ms.gov.br/objetivos-da-setdig/
+Total de Imagens: 5
+Imagens com 'alt': 4
+Imagens sem 'alt': 1
+Detalhes das imagens sem 'alt':
+- URL da Imagem: http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png
+  Tag Completa: <img alt='' class='wp-image-4796' decoding='async' height='70' loading='lazy' sizes='(max-width: 411px) 100vw, 411px' src='http://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png' srcset='https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE.png 411w, https://www.setdig.ms.gov.br/wp-content/uploads/2023/11/LOGO-RODAPE-300x51.png 300w' width='411'/>
+
+--------------------------------------------------
+

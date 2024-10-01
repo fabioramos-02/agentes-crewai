@@ -1,7 +1,8 @@
 import requests
 from tokens import get_claude_api_key
 from crewai_tools import tool
-
+from tool.geraldo import gerar_resposta_json
+from tool.fabio import analisa
 class ClaudeAPIClient:
     def __init__(self, api_key, base_url="https://api.anthropic.com/v1"):
         self.api_key = api_key
@@ -59,16 +60,26 @@ def call_claude_api(prompt: str) -> str:
     return client.call_claude(prompt) #teste
 
 
-@tool
-def extrair_urls_do_site(url: str, profundidade: int) -> list:
+def extrair_urls_do_site(prompt: str) -> str:
     """
     Extrai URLs de um site até uma certa profundidade.
+    """
+    #extrair do prompt a url e a profundidade
+    url_inicial, profundidade = prompt.split(",")
+    return gerar_resposta_json(url_inicial, profundidade)
+
+
+def analyze_images(prompt: str) -> str:
+    """
+    Analisa o conteúdo HTML de um site e identifica imagens sem texto alternativo.
+    
 
     Args:
-    - url (str): URL inicial para o crawling.
-    - profundidade (int): Profundidade máxima de links a serem extraídos.
+        html (str): O conteúdo HTML do site.    
+        site_url (str): A URL do site.
 
     Returns:
-    - list: Lista de URLs extraídas.
+        tuple: Contém a lista de imagens sem alt text, o número total de imagens, e o número de imagens com alt text.
     """
-    return list(extrair_links(url, profundidade=profundidade))
+    #extrair do prompt a url
+    return analisa(prompt)

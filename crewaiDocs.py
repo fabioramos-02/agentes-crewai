@@ -3,7 +3,6 @@ from tool.geraldo import gerar_resposta_json
 from tool.fabio import analisa  # Importar a função analisa do arquivo fabio.py
 from tool.baixar_img import baixar  # Função para baixar as imagens
 from tool.auditoria import gerar_relatorio_auditoria  # Importar a função gerar_relatorio_auditoria do arquivo fabio.py
-from tool.gerar_texto_alt_api import gerar_texto_alternativo_com_api  # Importar a função de gerar texto alternativo
 from tool.pdf import gerar_relatorio_pdf  # Importar a função de gerar relatório PDF
 import os
 

@@ -8,7 +8,7 @@ import os
 
 # Solicitar a URL e a profundidade ao usuário
 url_alvo = input("Digite a URL do site para extração de links: ")
-profundidade = input("Informe a profundidade: ")
+profundidade = int(input("Informe a profundidade: "))
 
 # Iniciar o processo de extração com a URL e profundidade fornecidas    
 entrada = gerar_resposta_json(url_alvo, profundidade)

@@ -1,5 +1,5 @@
 from docx import Document
-from docx.shared import Inches  # Adicionar esta linha para importar o objeto Inches
+from docx.shared import Inches  # Importar Inches para o tamanho das imagens
 import os
 
 # Função para criar uma tabela no documento
@@ -18,14 +18,21 @@ def adicionar_tabela(doc, detalhes):
 
     doc.add_paragraph()
 
-# Função para adicionar imagem e sua URL
+# Função para adicionar imagem e sua URL em duas colunas
 def adicionar_imagens(doc, imagens):
     for imagem in imagens:
-        nome = imagem['img_url'].split('/')[-1]  # Nome da imagem com base na URL'
-        doc.add_paragraph('IMAGEM ANEXADA')
-        doc.add_picture(os.path.join("img", nome), width=Inches(2))  # Usar Inches corretamente
-        doc.add_paragraph(f"URL da Imagem: {imagem['img_url']}")
-        doc.add_paragraph('-' * 50)
+        nome = imagem['img_url'].split('/')[-1]  # Nome da imagem com base na URL
+        table = doc.add_table(rows=1, cols=2)  # Criar uma tabela com 2 colunas
+
+        # Adicionar a imagem à primeira coluna dentro de um parágrafo
+        img_cell = table.rows[0].cells[0].add_paragraph()
+        img_cell.add_run().add_picture(os.path.join("img", nome), width=Inches(2))  # Adiciona a imagem ao parágrafo
+
+        # Colocar a URL na segunda coluna
+        url_cell = table.rows[0].cells[1]
+        url_cell.add_paragraph(f"{imagem['img_url']}")
+
+        doc.add_paragraph('-' * 50)  # Separador
 
 # Função principal para gerar o relatório
 def gerar_relatorio_auditoria(resultado_analises: dict, nome_arquivo='auditoria_relatorio.docx'):
@@ -38,7 +45,7 @@ def gerar_relatorio_auditoria(resultado_analises: dict, nome_arquivo='auditoria_
         # Adicionar Tabela com Resumo de Imagens
         adicionar_tabela(doc, detalhes)
         
-        # Adicionar imagens sem 'alt' com suas URLs
+        # Adicionar imagens sem 'alt' com suas URLs em duas colunas
         adicionar_imagens(doc, detalhes['detalhes_imagens_sem_alt'])
         
     doc.save(nome_arquivo)

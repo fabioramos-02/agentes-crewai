@@ -1,7 +1,6 @@
 import requests
 import os
 from fpdf import FPDF
-from tool.fabio import analyze_images
 
 # Função para gerar o relatório PDF
 def gerar_relatorio_pdf(resultado_analises, nome_arquivo='auditoria.pdf'):

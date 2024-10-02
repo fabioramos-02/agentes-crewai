@@ -1,29 +1,45 @@
 from docx import Document
+from docx.shared import Inches  # Adicionar esta linha para importar o objeto Inches
+import os
 
-# Função para gerar um relatório de auditoria no formato DOCX com imagens, URLs e textos alternativos
-def gerar_relatorio_auditoria(resultado_analises: dict, nome_arquivo='auditoria_relatorio.docx'):
-    contexto = """
-    As imagens que você está analisando serão utilizadas em um site governamental...
-    gere um texto alternativo para cada imagem que seja claro, simples e objetivo.
-    """
-    
-    pasta_img = "img"
-    
-    # Criar um novo documento DOCX
-    doc = Document()
-    doc.add_heading('Relatório de Auditoria', 0)
+# Função para criar uma tabela no documento
+def adicionar_tabela(doc, detalhes):
+    table = doc.add_table(rows=1, cols=3)
+    hdr_cells = table.rows[0].cells
+    hdr_cells[0].text = 'Total de Imagens'
+    hdr_cells[1].text = 'Imagens com "alt"'
+    hdr_cells[2].text = 'Imagens sem "alt"'
 
-    # Iterar sobre os resultados da análise
-    for url, detalhes in resultado_analises.items():
-        doc.add_heading(f'URL Analisada: {url}', level=1)
-        doc.add_paragraph(f"Total de Imagens: {detalhes['total_imagens']}")
-        doc.add_paragraph(f"Imagens com 'alt': {detalhes['imagens_com_alt']}")
-        doc.add_paragraph(f"Imagens sem 'alt': {detalhes['qtd_imagens_sem_alt']}")
+    # Preencher a tabela com os dados
+    row_cells = table.add_row().cells
+    row_cells[0].text = str(detalhes['total_imagens'])
+    row_cells[1].text = str(detalhes['imagens_com_alt'])
+    row_cells[2].text = str(detalhes['qtd_imagens_sem_alt'])
 
-       
+    doc.add_paragraph()
 
+# Função para adicionar imagem e sua URL
+def adicionar_imagens(doc, imagens):
+    for imagem in imagens:
+        nome = imagem['img_url'].split('/')[-1]  # Nome da imagem com base na URL'
+        doc.add_paragraph('IMAGEM ANEXADA')
+        doc.add_picture(os.path.join("img", nome), width=Inches(2))  # Usar Inches corretamente
+        doc.add_paragraph(f"URL da Imagem: {imagem['img_url']}")
         doc.add_paragraph('-' * 50)
 
-    # Salvar o documento DOCX
+# Função principal para gerar o relatório
+def gerar_relatorio_auditoria(resultado_analises: dict, nome_arquivo='auditoria_relatorio.docx'):
+    doc = Document()
+    doc.add_heading('Relatório de Auditoria', 0)
+    
+    for url, detalhes in resultado_analises.items():
+        doc.add_heading(f'URL Analisada: {url}', level=1)
+        
+        # Adicionar Tabela com Resumo de Imagens
+        adicionar_tabela(doc, detalhes)
+        
+        # Adicionar imagens sem 'alt' com suas URLs
+        adicionar_imagens(doc, detalhes['detalhes_imagens_sem_alt'])
+        
     doc.save(nome_arquivo)
     print(f"Relatório de auditoria gerado: {nome_arquivo}")

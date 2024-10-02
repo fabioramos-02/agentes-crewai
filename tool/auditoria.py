@@ -1,7 +1,9 @@
 from docx import Document
 from docx.shared import Inches
-import os
+from docx.oxml import OxmlElement
+from docx.oxml.ns import qn
 from PIL import Image, ImageOps
+import os
 
 # Função para criar uma tabela no documento
 def adicionar_tabela(doc, detalhes):
@@ -19,24 +21,50 @@ def adicionar_tabela(doc, detalhes):
 
     doc.add_paragraph()
 
-# Função para adicionar fundo preto às imagens
-def adicionar_fundo_preto(imagem_path):
+# Função para adicionar um quadro preto mais fino à imagem
+def adicionar_quadro_preto(imagem_path):
     # Abrir a imagem
     img = Image.open(imagem_path)
-    
-    # Verificar se a imagem tem transparência (modo RGBA)
-    if img.mode == 'RGBA':
-        # Criar uma nova imagem com fundo preto
-        fundo_preto = Image.new("RGB", img.size, (0, 0, 0))
-        fundo_preto.paste(img, (0, 0), img)
-    else:
-        # Adicionar um fundo preto direto
-        fundo_preto = ImageOps.expand(img, border=0, fill='black')
-    
-    # Salvar a imagem com fundo preto
-    img_com_fundo_preto = os.path.join("img", "preto_" + os.path.basename(imagem_path))
-    fundo_preto.save(img_com_fundo_preto)
-    return img_com_fundo_preto
+
+    # Adicionar uma borda preta mais fina (3px de espessura)
+    img_com_quadro = ImageOps.expand(img, border=3, fill='black')
+
+    # Salvar a imagem com o quadro
+    img_com_quadro_path = os.path.join("img", "quadro_" + os.path.basename(imagem_path))
+    img_com_quadro.save(img_com_quadro_path)
+
+    return img_com_quadro_path
+
+# Função para adicionar um hyperlink clicável
+def add_hyperlink(paragraph, url, text):
+    """
+    Adiciona um hyperlink clicável no parágrafo.
+    :param paragraph: Parágrafo onde o hyperlink será inserido.
+    :param url: URL que será vinculada.
+    :param text: Texto que será clicável.
+    """
+    # Criar o relacionamento do hyperlink com o documento
+    part = paragraph.part
+    r_id = part.relate_to(url, 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink', is_external=True)
+
+    # Criar o elemento <w:hyperlink> com o ID do relacionamento
+    hyperlink = OxmlElement('w:hyperlink')
+    hyperlink.set(qn('r:id'), r_id)
+
+    # Criar o elemento de execução (run) para o texto do hyperlink
+    new_run = OxmlElement('w:r')
+    rPr = OxmlElement('w:rPr')  # Formatação do run
+    rStyle = OxmlElement('w:rStyle')  # Estilo de hyperlink
+    rStyle.set(qn('w:val'), 'Hyperlink')
+    rPr.append(rStyle)
+    new_run.append(rPr)
+    new_run.text = text
+
+    # Adicionar o novo run ao hyperlink
+    hyperlink.append(new_run)
+
+    # Adicionar o hyperlink ao parágrafo
+    paragraph._p.append(hyperlink)
 
 # Função para adicionar imagem e sua URL em duas colunas
 def adicionar_imagens(doc, imagens):
@@ -44,20 +72,23 @@ def adicionar_imagens(doc, imagens):
         nome = imagem['img_url'].split('/')[-1]  # Nome da imagem com base na URL
         imagem_path = os.path.join("img", nome)
 
-        # Adicionar fundo preto à imagem
-        imagem_com_fundo_preto = adicionar_fundo_preto(imagem_path)
+        # Adicionar o quadro preto à imagem
+        imagem_com_quadro = adicionar_quadro_preto(imagem_path)
 
         table = doc.add_table(rows=1, cols=2)  # Criar uma tabela com 2 colunas
 
-        # Adicionar a imagem à primeira coluna dentro de um parágrafo
-        img_cell = table.rows[0].cells[0].add_paragraph()
-        img_cell.add_run().add_picture(imagem_com_fundo_preto, width=Inches(2))  # Adiciona a imagem com fundo preto
+        # Adicionar a imagem à primeira coluna
+        img_cell = table.rows[0].cells[0]
+        p = img_cell.add_paragraph()
+        run = p.add_run()
+        run.add_picture(imagem_com_quadro, width=Inches(2))  # Adiciona a imagem com o quadro
 
-        # Colocar a URL na segunda coluna
+        # Colocar a URL na segunda coluna e torná-la clicável
         url_cell = table.rows[0].cells[1]
-        url_cell.add_paragraph(f" {imagem['img_url']}")
+        p_url = url_cell.add_paragraph()
+        add_hyperlink(p_url, imagem['img_url'], "Clique aqui para ver a imagem")  # Link clicável
 
-        doc.add_paragraph('-' * 50)  # Separador
+        doc.add_paragraph('-' * 100)  # Separador
 
 # Função principal para gerar o relatório
 def gerar_relatorio_auditoria(resultado_analises: dict, nome_arquivo='auditoria_relatorio.docx'):

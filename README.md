@@ -31,7 +31,7 @@ As principais tecnologias e ferramentas usadas no desenvolvimento deste sistema 
 
 - **Python** - Análise de dados e suporte ao multiagente
 - **WCAG 2.1** - Diretrizes Internacionais de Acessibilidade para Conteúdo Web
-- **CrewAI** - Plataforma de inteligência artificial colaborativa
+- **CrewAI** - Framework de inteligência artificial colaborativa
 
 ---
 

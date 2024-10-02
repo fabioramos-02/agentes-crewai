@@ -75,28 +75,3 @@ def extrair_urls_do_site(prompt: str) -> str:
         return "Erro: O prompt deve estar no formato 'url_inicial, profundidade'."
 
 
-def analyze_images(prompt: str) -> str:
-    """
-    Analisa o conteúdo HTML de um site e identifica imagens sem texto alternativo.
-    
-
-    Args:
-        html (str): O conteúdo HTML do site.    
-        site_url (str): A URL do site.
-
-    Returns:
-        tuple: Contém a lista de imagens sem alt text, o número total de imagens, e o número de imagens com alt text.
-    """
-    #extrair do prompt a url
-    return analisa(prompt)
-
-def baixar_images(prompt:str) -> str:
-    """
-    Baixa imagens de um site.
-    O prompt deve conter a URL da imagem e o nome do arquivo.
-    """
-    try:
-        img_url, nome_arquivo = prompt.split(",")
-        return baixar(img_url.strip(), nome_arquivo.strip())
-    except ValueError:
-        return "Erro: O prompt deve estar no formato 'url_da_imagem, nome_arquivo'."

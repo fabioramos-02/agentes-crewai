@@ -4,6 +4,7 @@ from tool.fabio import analisa  # Importar a função analisa do arquivo fabio.p
 from tool.baixar_img import baixar  # Função para baixar as imagens
 from tool.auditoria import gerar_relatorio_auditoria  # Importar a função gerar_relatorio_auditoria do arquivo fabio.py
 from tool.gerar_texto_alt_api import gerar_texto_alternativo_com_api  # Importar a função de gerar texto alternativo
+from tool.pdf import gerar_relatorio_pdf  # Importar a função de gerar relatório PDF
 import os
 
 # Solicitar a URL e a profundidade ao usuário
@@ -41,11 +42,11 @@ for url_info in entrada_dict['urls']:
                 # Baixar a imagem e salvar na pasta 'img'
                 baixar(img_url, nome_arquivo)
                 
-                # Gerar o texto alternativo usando a função da API GPT
-                texto_alternativo = gerar_texto_alternativo_com_api(nome_arquivo, contexto="governamental")
+                # # Gerar o texto alternativo usando a função da API GPT
+                # texto_alternativo = gerar_texto_alternativo_com_api(nome_arquivo, contexto="governamental")
                 
-                # Exibir o texto alternativo gerado
-                print(f"Sugestão de texto alternativo para {nome_arquivo}: {texto_alternativo}")
+                # # Exibir o texto alternativo gerado
+                # print(f"Sugestão de texto alternativo para {nome_arquivo}: {texto_alternativo}")
                 
                 # Adicionar a URL da imagem ao conjunto de imagens baixadas
                 imagens_baixadas.add(img_url)
@@ -59,3 +60,5 @@ resultado_json = json.dumps(resultado_analises, indent=4)
 
 # Gerar o relatório de auditoria
 gerar_relatorio_auditoria(resultado_analises)
+gerar_relatorio_pdf(resultado_analises)
+print("Relatórios de auditoria gerados com sucesso!")

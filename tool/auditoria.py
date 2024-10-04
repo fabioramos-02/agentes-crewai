@@ -70,9 +70,6 @@ def add_hyperlink(paragraph, url, text):
 def adicionar_imagens(doc, imagens):
     for imagem in imagens:
         nome = imagem['img_url'].split('/')[-1]  # Nome da imagem com base na URL
-        imagem_path = os.path.join("img", nome)
-
-      
 
         table = doc.add_table(rows=1, cols=2)  # Criar uma tabela com 2 colunas
 
@@ -80,14 +77,15 @@ def adicionar_imagens(doc, imagens):
         img_cell = table.rows[0].cells[0]
         p = img_cell.add_paragraph()
         run = p.add_run()
-        run.add_picture(imagem_path, width=Inches(2))  # Adiciona a imagem com o quadro
+        # Se você não deseja incluir a imagem, remova esta linha:
+        # run.add_picture(imagem_path, width=Inches(2))  # Adiciona a imagem com o quadro
 
-        # Colocar a URL na segunda coluna e torná-la clicável
+        # Colocar a URL diretamente na segunda coluna
         url_cell = table.rows[0].cells[1]
         p_url = url_cell.add_paragraph()
-        add_hyperlink(p_url, imagem['img_url'], "Clique aqui para ver a imagem")  # Link clicável
+        p_url.add_run(imagem['img_url'])  # Exibe a URL diretamente
 
-        doc.add_paragraph('-' * 100)  # Separador
+
 
 # Função principal para gerar o relatório
 def gerar_relatorio_auditoria(resultado_analises: dict, nome_arquivo='auditoria_relatorio.docx'):

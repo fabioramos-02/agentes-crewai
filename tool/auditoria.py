@@ -72,8 +72,7 @@ def adicionar_imagens(doc, imagens):
         nome = imagem['img_url'].split('/')[-1]  # Nome da imagem com base na URL
         imagem_path = os.path.join("img", nome)
 
-        # Adicionar o quadro preto à imagem
-        imagem_com_quadro = adicionar_quadro_preto(imagem_path)
+      
 
         table = doc.add_table(rows=1, cols=2)  # Criar uma tabela com 2 colunas
 
@@ -81,7 +80,7 @@ def adicionar_imagens(doc, imagens):
         img_cell = table.rows[0].cells[0]
         p = img_cell.add_paragraph()
         run = p.add_run()
-        run.add_picture(imagem_com_quadro, width=Inches(2))  # Adiciona a imagem com o quadro
+        run.add_picture(imagem_path, width=Inches(2))  # Adiciona a imagem com o quadro
 
         # Colocar a URL na segunda coluna e torná-la clicável
         url_cell = table.rows[0].cells[1]

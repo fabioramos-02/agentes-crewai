@@ -43,7 +43,7 @@ A acessibilidade digital é um direito fundamental, e este sistema busca identif
 ---
 
 ## Como utilizar este projeto:
-1. Clone este repositório em sua maquina local
+1. Clone este repositório em sua máquina local:
 	```bash 
     git clone https://github.com/fabioramos-02/agentes-crewai.git
 

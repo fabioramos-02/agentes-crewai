@@ -1,6 +1,6 @@
-# Sistema Multiagente para Analisar Acessibilidade Web
+# Sistema para Analisar Acessibilidade Web
 
-Este projeto tem como objetivo automatizar a **análise de acessibilidade** dos sites do governo do Estado de Mato Grosso do Sul. Utilizando um **Sistema Multiagente (SMA)**, o sistema gera relatórios detalhados sobre as condições de acessibilidade, com foco especial na verificação de **textos alternativos em imagens**. Isso ajuda a garantir que os sites estejam acessíveis para pessoas com deficiência visual, promovendo inclusão digital.
+Este projeto tem como objetivo automatizar a **análise de acessibilidade** dos sites do governo do Estado de Mato Grosso do Sul.  O sistema utiliza ferramentas para extrair, analisar e gerar relatórios detalhados sobre as condições de acessibilidade, com foco especial na verificação de **textos alternativos em imagens**. Isso ajuda a garantir que os sites estejam acessíveis para pessoas com deficiência visual, promovendo inclusão digital.
 
 > 🚧 **Projeto em desenvolvimento** 🚧  
 > Estamos continuamente aprimorando o sistema para abranger novas funcionalidades e aumentar a precisão da análise.
@@ -31,7 +31,6 @@ As principais tecnologias e ferramentas usadas no desenvolvimento deste sistema 
 
 - **Python** - Análise de dados e suporte ao multiagente
 - **WCAG 2.1** - Diretrizes Internacionais de Acessibilidade para Conteúdo Web
-- **CrewAI** - Framework de inteligência artificial colaborativa
 
 ---
 

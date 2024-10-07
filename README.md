@@ -42,6 +42,21 @@ A acessibilidade digital é um direito fundamental, e este sistema busca identif
 
 ---
 
+## Como utilizar este projeto:
+1. Clone este repositório em sua maquina local
+	```bash 
+    git clone https://github.com/fabioramos-02/agentes-crewai.git
+
+2. Importe as seguintes bibliotecas:
+	```bash
+    pip install -r requirements.txt
+
+3. Para rodar o projeto, digite: 
+	```bash
+    python .\crewaiDocs.py
+
+---
+
 ## Tecnologias Utilizadas
 
 As principais tecnologias e ferramentas usadas no desenvolvimento deste sistema incluem:

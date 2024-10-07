@@ -1,7 +1,5 @@
 from docx import Document
-from docx.oxml import OxmlElement
-from docx.oxml.ns import qn
-from PIL import Image, ImageOps
+from docx.shared import Inches
 import os
 
 # Função para criar uma tabela no documento
@@ -20,71 +18,30 @@ def adicionar_tabela(doc, detalhes):
 
     doc.add_paragraph()
 
-# Função para adicionar um quadro preto mais fino à imagem
-def adicionar_quadro_preto(imagem_path):
-    # Abrir a imagem
-    img = Image.open(imagem_path)
-
-    # Adicionar uma borda preta mais fina (3px de espessura)
-    img_com_quadro = ImageOps.expand(img, border=3, fill='black')
-
-    # Salvar a imagem com o quadro
-    img_com_quadro_path = os.path.join("img", "quadro_" + os.path.basename(imagem_path))
-    img_com_quadro.save(img_com_quadro_path)
-
-    return img_com_quadro_path
-
-# Função para adicionar um hyperlink clicável
-def add_hyperlink(paragraph, url, text):
-    """
-    Adiciona um hyperlink clicável no parágrafo.
-    :param paragraph: Parágrafo onde o hyperlink será inserido.
-    :param url: URL que será vinculada.
-    :param text: Texto que será clicável.
-    """
-    # Criar o relacionamento do hyperlink com o documento
-    part = paragraph.part
-    r_id = part.relate_to(url, 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink', is_external=True)
-
-    # Criar o elemento <w:hyperlink> com o ID do relacionamento
-    hyperlink = OxmlElement('w:hyperlink')
-    hyperlink.set(qn('r:id'), r_id)
-
-    # Criar o elemento de execução (run) para o texto do hyperlink
-    new_run = OxmlElement('w:r')
-    rPr = OxmlElement('w:rPr')  # Formatação do run
-    rStyle = OxmlElement('w:rStyle')  # Estilo de hyperlink
-    rStyle.set(qn('w:val'), 'Hyperlink')
-    rPr.append(rStyle)
-    new_run.append(rPr)
-    new_run.text = text
-
-    # Adicionar o novo run ao hyperlink
-    hyperlink.append(new_run)
-
-    # Adicionar o hyperlink ao parágrafo
-    paragraph._p.append(hyperlink)
-
-# Função para adicionar imagem e sua URL em duas colunas
+# Função para adicionar imagens e suas URLs em uma tabela com duas colunas
 def adicionar_imagens(doc, imagens):
     for imagem in imagens:
-        nome = imagem['img_url'].split('/')[-1]  # Nome da imagem com base na URL
+        nome_arquivo = imagem['img_url'].split('/')[-1]  # Nome da imagem com base na URL
+        caminho_imagem = os.path.join("img", nome_arquivo)  # Caminho para a imagem
 
-        table = doc.add_table(rows=1, cols=2)  # Criar uma tabela com 2 colunas
+        # Criar uma tabela com 2 colunas
+        table = doc.add_table(rows=1, cols=2)
 
         # Adicionar a imagem à primeira coluna
         img_cell = table.rows[0].cells[0]
         p = img_cell.add_paragraph()
         run = p.add_run()
-        # Se você não deseja incluir a imagem, remova esta linha:
-        # run.add_picture(imagem_path, width=Inches(2))  # Adiciona a imagem com o quadro
+
+        # Verifica se a imagem foi baixada corretamente
+        if os.path.exists(caminho_imagem):
+            run.add_picture(caminho_imagem, width=Inches(1.5))  # Adiciona a imagem com tamanho de 1.5 polegadas
+        else:
+            p.add_run("Imagem não disponível")  # Caso a imagem não tenha sido baixada corretamente
 
         # Colocar a URL diretamente na segunda coluna
         url_cell = table.rows[0].cells[1]
         p_url = url_cell.add_paragraph()
         p_url.add_run(imagem['img_url'])  # Exibe a URL diretamente
-
-
 
 # Função principal para gerar o relatório
 def gerar_relatorio_auditoria(resultado_analises: dict, nome_arquivo='auditoria_relatorio.docx'):

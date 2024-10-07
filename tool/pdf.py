@@ -1,4 +1,3 @@
-import requests
 import os
 from fpdf import FPDF
 

@@ -66,6 +66,6 @@ As principais tecnologias e ferramentas usadas no desenvolvimento deste sistema 
 ## Autores
 - **Dani**
 - **Fabio**
-- **Geraldo**
+- **Geraldo Neto** - *Tecnologia de Ciência dos Dados* - [GitHub](https://github.com/geraldoneto) | [LinkedIn](https://www.linkedin.com/in/geraldobneto)
 - **Júlia Kuroishi** - *Tecnologia da Informação* - [GitHub](https://github.com/juliakuroishi) | [LinkedIn](https://www.linkedin.com/in/julia-kuroishi-244bb0248/)
 

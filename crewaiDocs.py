@@ -1,8 +1,8 @@
 import json
 from tool.rastreador_de_url import gerar_resposta_json
-from tool.analisa_imagem import analisa  # Importar a função analisa do arquivo fabio.py
+from tool.analisa_imagem import analisa  # Importar a função analisa do arquivo
 from tool.baixar_img import baixar  # Função para baixar as imagens
-from tool.gerar_relatorio import gerar_relatorio_auditoria  # Importar a função gerar_relatorio_auditoria do arquivo fabio.py
+from tool.gerar_relatorio import gerar_relatorio_auditoria  # Importar a função gerar_relatorio_auditoria do arquivo
 from tool.pdf import gerar_relatorio_pdf  # Importar a função de gerar relatório PDF
 import os
 

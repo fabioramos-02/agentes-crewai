@@ -3,9 +3,10 @@ from docx.shared import Inches, Pt, RGBColor
 from fpdf import FPDF
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
+from docx.oxml import parse_xml
+from docx.oxml.ns import nsdecls
 import os
-
-# Função para adicionar bordas à tabela
+# Função para adicionar bordas e cor de fundo à tabela
 def adicionar_bordas(tabela):
     for row in tabela.rows:
         for cell in row.cells:
@@ -21,7 +22,12 @@ def adicionar_bordas(tabela):
                 border.set(qn('w:space'), '0')
                 border.set(qn('w:color'), '000000')  # Cor preta para a borda
                 tcBorders.append(border)
-            
+
+            # Definir a cor de fundo
+            cell._element.get_or_add_tcPr().append(
+                parse_xml(r'<w:shd {} w:fill="ABC3DF"/>'.format(nsdecls('w')))
+            )
+
             tcPr.append(tcBorders)
 
 # Função para adicionar imagens com nome formatado (sem hiperlink)

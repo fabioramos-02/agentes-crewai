@@ -2,9 +2,6 @@
 
 Este projeto tem como objetivo automatizar a **análise de acessibilidade** dos sites do governo do Estado de Mato Grosso do Sul.  O sistema utiliza ferramentas para extrair, analisar e gerar relatórios detalhados sobre as condições de acessibilidade, com foco especial na verificação de **textos alternativos em imagens**. Isso ajuda a garantir que os sites estejam acessíveis para pessoas com deficiência visual, promovendo inclusão digital.
 
-> 🚧 **Projeto em desenvolvimento** 🚧  
-> Estamos continuamente aprimorando o sistema para abranger novas funcionalidades e aumentar a precisão da análise.
-
 ---
 
 ## Índice
@@ -53,7 +50,7 @@ A acessibilidade digital é um direito fundamental, e este sistema busca identif
 
 3. Para rodar o projeto, digite: 
 	```bash
-    python .\crewaiDocs.py
+    python main.py
 
 ---
 
@@ -70,4 +67,5 @@ As principais tecnologias e ferramentas usadas no desenvolvimento deste sistema 
 - **Dani**
 - **Fabio**
 - **Geraldo**
-- **Júlia**
+- **Júlia Kuroishi** - *Tecnologia da Informação* - [GitHub](https://github.com/usuario](https://github.com/juliakuroishi) | [LinkedIn](https://linkedin.com/in/usuario)
+

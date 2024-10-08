@@ -2,7 +2,7 @@ import json
 from tool.rastreador_de_url import gerar_resposta_json
 from tool.analisa_imagem import analisa  # Importar a função analisa do arquivo
 from tool.baixar_img import baixar  # Função para baixar as imagens
-from tool.gerar_relatorio import gerar_relatorios  # Importar a função gerar_relatorio_auditoria do arquivo
+from tool.gerar_relatorio import gerar_relatorio_docx  # Importar a função gerar_relatorio_auditoria do arquivo
 import os
 
 def main():
@@ -21,6 +21,8 @@ def main():
         else:
             print("Entrada inválida. Por favor, digite 's' para sim e 'n' para não.")
 
+      # Perguntar ao usuário o nome do arquivo para o relatório
+    nome_arquivo_docx = input("Digite o nome do arquivo para salvar o relatório DOCX (sem extensão): ") + ".docx"
     # Iniciar o processo de extração com a URL e profundidade fornecidas    
     entrada = gerar_resposta_json(url_alvo, profundidade)
     entrada_dict = json.loads(entrada)  # Converter a string JSON para dicionário Python
@@ -69,7 +71,8 @@ def main():
     # resultado_json = json.dumps(resultado_analises, indent=4)
 
     # Gerar o relatório de auditoria
-    gerar_relatorios(resultado_analises)
+    gerar_relatorio_docx(resultado_analises, nome_arquivo_docx)
+    
     print("Relatórios de auditoria gerados com sucesso!")
 
 if __name__ == "__main__":

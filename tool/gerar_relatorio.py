@@ -133,6 +133,3 @@ def gerar_relatorio_docx(resultado_analises: dict, nome_arquivo='relatorio_audit
 #     pdf.output(nome_arquivo)
 #     print(f"Relatório PDF gerado: {nome_arquivo}")
 
-# Função principal para gerar ambos os relatórios
-def gerar_relatorios(resultado_analises):
-    gerar_relatorio_docx(resultado_analises)

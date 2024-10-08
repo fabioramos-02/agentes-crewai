@@ -67,11 +67,10 @@ def main():
             print(f"Erro ao analisar {link}: {e}")
 
     # Converter o dicionário de resultados em JSON
-    resultado_json = json.dumps(resultado_analises, indent=4)
+    # resultado_json = json.dumps(resultado_analises, indent=4)
 
     # Gerar o relatório de auditoria
     gerar_relatorio_auditoria(resultado_analises)
-    gerar_relatorio_pdf(resultado_analises)
     print("Relatórios de auditoria gerados com sucesso!")
 
 if __name__ == "__main__":

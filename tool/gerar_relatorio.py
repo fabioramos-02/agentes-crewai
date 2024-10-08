@@ -1,6 +1,7 @@
 from docx import Document
 from docx.shared import Inches
 import os
+from docx.shared import Pt, RGBColor
 
 # Função para criar uma tabela no documento
 def adicionar_tabela(doc, detalhes):
@@ -25,23 +26,34 @@ def adicionar_imagens(doc, imagens):
         caminho_imagem = os.path.join("img", nome_arquivo)  # Caminho para a imagem
 
         # Criar uma tabela com 2 colunas
-        table = doc.add_table(rows=1, cols=2)
+        table = doc.add_table(rows=2, cols=2)  # Duas linhas, uma para o nome e outra para a imagem e URL
 
-        # Adicionar a imagem à primeira coluna
-        img_cell = table.rows[0].cells[0]
-        p = img_cell.add_paragraph()
-        run = p.add_run()
+        # Primeira linha: nome da imagem
+        nome_cell = table.rows[0].cells[0]
+        nome_cell.merge(table.rows[0].cells[1])  # Unir as duas colunas para o nome
+        p_nome = nome_cell.add_paragraph()
+        run_nome = p_nome.add_run(nome_arquivo)
+        run_nome.bold = True  # Deixar o nome em negrito
+        run_nome.font.size = Pt(12)  # Tamanho da fonte
+
+        # Segunda linha: adicionar a imagem à primeira coluna
+        img_cell = table.rows[1].cells[0]
+        p_img = img_cell.add_paragraph()
+        run_img = p_img.add_run()
 
         # Verifica se a imagem foi baixada corretamente
         if os.path.exists(caminho_imagem):
-            run.add_picture(caminho_imagem, width=Inches(1.5))  # Adiciona a imagem com tamanho de 1.5 polegadas
+            run_img.add_picture(caminho_imagem, width=Inches(1.5))  # Adiciona a imagem com tamanho de 1.5 polegadas
         else:
-            p.add_run("Imagem não disponível")  # Caso a imagem não tenha sido baixada corretamente
+            p_img.add_run("Imagem não disponível")  # Caso a imagem não tenha sido baixada corretamente
 
-        # Colocar a URL diretamente na segunda coluna
-        url_cell = table.rows[0].cells[1]
+        # Segunda coluna: URL da imagem como link clicável
+        url_cell = table.rows[1].cells[1]
         p_url = url_cell.add_paragraph()
-        p_url.add_run(imagem['img_url'])  # Exibe a URL diretamente
+        run_url = p_url.add_run(f"Link da Imagem: {imagem['img_url']}")
+        run_url.font.color.rgb = RGBColor(0, 0, 255)  # Cor do link em azul
+        run_url.underline = True  # Sublinhado
+        p_url.hyperlink = imagem['img_url']  # Torna o texto um hyperlink
 
 # Função principal para gerar o relatório
 def gerar_relatorio_auditoria(resultado_analises: dict, nome_arquivo='auditoria_relatorio.docx'):

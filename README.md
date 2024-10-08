@@ -67,4 +67,5 @@ As principais tecnologias e ferramentas usadas no desenvolvimento deste sistema 
 - **Dani**
 - **Fabio**
 - **Geraldo**
-- **Júlia**
+- **Júlia Kuroishi** - *Tecnologia da Informação* - [GitHub](https://github.com/juliakuroishi) | [LinkedIn](https://www.linkedin.com/in/julia-kuroishi-244bb0248/)
+

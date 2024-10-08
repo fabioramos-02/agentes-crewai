@@ -88,52 +88,51 @@ def gerar_relatorio_docx(resultado_analises: dict, nome_arquivo='relatorio_audit
     print(f"Relatório DOCX gerado: {nome_arquivo}")
 
 
-# Função para gerar o relatório em PDF
-def gerar_relatorio_pdf(resultado_analises, nome_arquivo='relatorio_auditoria.pdf'):
-    pdf = FPDF()
-    pdf.set_auto_page_break(auto=True, margin=15)
+# # Função para gerar o relatório em PDF
+# def gerar_relatorio_pdf(resultado_analises, nome_arquivo='relatorio_auditoria.pdf'):
+#     pdf = FPDF()
+#     pdf.set_auto_page_break(auto=True, margin=15)
 
-    # Definir margens: esquerda, topo, direita
-    pdf.set_margins(left=15, top=20, right=15)
+#     # Definir margens: esquerda, topo, direita
+#     pdf.set_margins(left=15, top=20, right=15)
 
-    pdf.add_page()
+#     pdf.add_page()
 
-    pdf.set_font('Arial', 'B', 16)
-    pdf.cell(0, 10, 'Relatório de Auditoria de Imagens', ln=True, align='C')
-    pdf.ln(10)
+#     pdf.set_font('Arial', 'B', 16)
+#     pdf.cell(0, 10, 'Relatório de Auditoria de Imagens', ln=True, align='C')
+#     pdf.ln(10)
 
-    for url, detalhes in resultado_analises.items():
-        pdf.set_font('Arial', 'B', 12)
-        pdf.cell(0, 10, f"URL Analisada: {url}", ln=True)
+#     for url, detalhes in resultado_analises.items():
+#         pdf.set_font('Arial', 'B', 12)
+#         pdf.cell(0, 10, f"URL Analisada: {url}", ln=True)
 
-        for idx, imagem in enumerate(detalhes['detalhes_imagens_sem_alt']):
-            nome = imagem['img_url'].split('/')[-1]  # Nome da imagem
-            caminho_imagem = os.path.join("img", nome)
+#         for idx, imagem in enumerate(detalhes['detalhes_imagens_sem_alt']):
+#             nome = imagem['img_url'].split('/')[-1]  # Nome da imagem
+#             caminho_imagem = os.path.join("img", nome)
 
-            # Adicionar texto da imagem
-            pdf.set_font('Arial', 'B', 12)
-            pdf.cell(0, 10, f"Imagem {idx + 1}: {nome}", ln=True)
+#             # Adicionar texto da imagem
+#             pdf.set_font('Arial', 'B', 12)
+#             pdf.cell(0, 10, f"Imagem {idx + 1}: {nome}", ln=True)
 
-            # Verificar se a imagem existe e ajustar o tamanho com a margem definida
-            if os.path.exists(caminho_imagem):
-                try:
-                    pdf.image(caminho_imagem, w=70, x=pdf.get_x(), y=pdf.get_y())
-                    pdf.ln(30)  # Ajusta a altura do parágrafo após a imagem
-                except RuntimeError:
-                    pdf.cell(0, 10, "Erro ao adicionar a imagem.", ln=True)
-            else:
-                pdf.cell(0, 10, "Imagem não disponível", ln=True)
+#             # Verificar se a imagem existe e ajustar o tamanho com a margem definida
+#             if os.path.exists(caminho_imagem):
+#                 try:
+#                     pdf.image(caminho_imagem, w=70, x=pdf.get_x(), y=pdf.get_y())
+#                     pdf.ln(30)  # Ajusta a altura do parágrafo após a imagem
+#                 except RuntimeError:
+#                     pdf.cell(0, 10, "Erro ao adicionar a imagem.", ln=True)
+#             else:
+#                 pdf.cell(0, 10, "Imagem não disponível", ln=True)
 
-            # Adicionar texto alternativo
-            pdf.set_font('Arial', '', 12)
-            texto_alt = imagem.get('alt_text', 'Texto alternativo não disponível')
-            pdf.multi_cell(0, 10, f"Texto alternativo: {texto_alt}")
-            pdf.ln(5)
+#             # Adicionar texto alternativo
+#             pdf.set_font('Arial', '', 12)
+#             texto_alt = imagem.get('alt_text', 'Texto alternativo não disponível')
+#             pdf.multi_cell(0, 10, f"Texto alternativo: {texto_alt}")
+#             pdf.ln(5)
 
-    pdf.output(nome_arquivo)
-    print(f"Relatório PDF gerado: {nome_arquivo}")
+#     pdf.output(nome_arquivo)
+#     print(f"Relatório PDF gerado: {nome_arquivo}")
 
 # Função principal para gerar ambos os relatórios
 def gerar_relatorios(resultado_analises):
     gerar_relatorio_docx(resultado_analises)
-    gerar_relatorio_pdf(resultado_analises)

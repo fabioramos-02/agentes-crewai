@@ -2,8 +2,7 @@ import json
 from tool.rastreador_de_url import gerar_resposta_json
 from tool.analisa_imagem import analisa  # Importar a função analisa do arquivo
 from tool.baixar_img import baixar  # Função para baixar as imagens
-from tool.gerar_relatorio import gerar_relatorio_auditoria  # Importar a função gerar_relatorio_auditoria do arquivo
-from tool.pdf import gerar_relatorio_pdf  # Importar a função de gerar relatório PDF
+from tool.gerar_relatorio import gerar_relatorios  # Importar a função gerar_relatorio_auditoria do arquivo
 import os
 
 def main():
@@ -70,7 +69,7 @@ def main():
     # resultado_json = json.dumps(resultado_analises, indent=4)
 
     # Gerar o relatório de auditoria
-    gerar_relatorio_auditoria(resultado_analises)
+    gerar_relatorios(resultado_analises)
     print("Relatórios de auditoria gerados com sucesso!")
 
 if __name__ == "__main__":

@@ -30,7 +30,6 @@ def adicionar_bordas(tabela):
 
             tcPr.append(tcBorders)
 
-# Função para adicionar imagens com nome formatado (sem hiperlink)
 def adicionar_imagens_formatado(doc, imagens):
     for idx, imagem in enumerate(imagens):
         nome_arquivo = imagem['img_url'].split('/')[-1]  # Nome da imagem com base na URL
@@ -60,20 +59,23 @@ def adicionar_imagens_formatado(doc, imagens):
 
         # Verifica se a imagem foi baixada corretamente
         if os.path.exists(caminho_imagem):
-            run_img.add_picture(caminho_imagem, width=Inches(2))  # Adiciona a imagem
+            try:
+                run_img.add_picture(caminho_imagem, width=Inches(2))  # Adiciona a imagem
+            except Exception as e:
+                p_img.add_run(f"Erro ao adicionar a imagem: {e}")
         else:
             p_img.add_run("Imagem não disponível")
 
         # Adicionar o nome da imagem sem o hiperlink
         p_img.add_run(f"\n{nome_arquivo}").font.color.rgb = RGBColor(128, 0, 128)  # Nome da imagem em roxo
-                
-
+            
         # Adicionar texto alternativo na segunda coluna
         alt_text_cell = table.cell(1, 1)
         p_alt_text = alt_text_cell.add_paragraph()
         p_alt_text.add_run(imagem.get('alt_text', 'Texto alternativo não disponível'))
 
         doc.add_paragraph()  # Adicionar um espaço entre as tabelas
+
 
 # Função para gerar o relatório em docx (sem hiperlink)
 def gerar_relatorio_docx(resultado_analises: dict, nome_arquivo='relatorio_auditoria.docx'):

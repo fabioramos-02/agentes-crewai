@@ -1,11 +1,12 @@
 import json
 from tool.rastreador_de_url import gerar_resposta_json
 from tool.analisa_imagem import analisa  # Importar a função analisa do arquivo
-from tool.baixar_img import baixar  # Função para baixar as imagens
+from tool.baixar_img import baixar, limpar_pasta_img  # Função para baixar as imagens
 from tool.gerar_relatorio import gerar_relatorio_docx  # Importar a função gerar_relatorio_auditoria do arquivo
 import os
 
 def main():
+    limpar_pasta_img() 
     # Solicitar a URL e a profundidade ao usuário
     url_alvo = input("Digite a URL do site para extração de links: ")
 
@@ -24,6 +25,7 @@ def main():
       # Perguntar ao usuário o nome do arquivo para o relatório
     nome_arquivo_docx = input("Digite o nome do arquivo para salvar o relatório DOCX (sem extensão): ") + ".docx"
     # Iniciar o processo de extração com a URL e profundidade fornecidas    
+    print("Iniciando extração de links...")
     entrada = gerar_resposta_json(url_alvo, profundidade)
     entrada_dict = json.loads(entrada)  # Converter a string JSON para dicionário Python
 
@@ -34,10 +36,10 @@ def main():
 
     # Caminho para a pasta de imagens
     pasta_img = "img"
-
+    
     # Criar a pasta se não existir
     os.makedirs(pasta_img, exist_ok=True)
-
+    print("Iniciando análise de URLs...")
     for url_info in entrada_dict['urls']:
         link = url_info['link']
         try:
@@ -71,6 +73,7 @@ def main():
     # resultado_json = json.dumps(resultado_analises, indent=4)
 
     # Gerar o relatório de auditoria
+    print("Gerando relatórios de auditoria...")
     gerar_relatorio_docx(resultado_analises, nome_arquivo_docx)
     
     print("Relatórios de auditoria gerados com sucesso!")

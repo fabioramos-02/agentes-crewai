@@ -64,7 +64,7 @@ As principais tecnologias e ferramentas usadas no desenvolvimento deste sistema 
 ---
 
 ## Autores
-- **Daniele Ichiy** - *Tecnologia da Informação* - [GitHub](https://github.com/daniichiy) | [LinkedIn](https://www.linkedin.com/in/daniele-lins-ichiy-5001b928b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- **Daniele Ichiy** - *Tecnologia da Informação* - [GitHub](https://github.com/daniichiy) | [LinkedIn](https://www.linkedin.com/in/daniele-lins-ichiy-5001b928b/)
 - **Fabio** - *Engenharia de Software* - [GitHub](https://github.com/fabioramos-02) | [LinkedIn](https://www.linkedin.com/in/fabio-ramos-7b8608204/)
 - **Geraldo Neto** - *Tecnologia de Ciência dos Dados* - [GitHub](https://github.com/geraldoneto) | [LinkedIn](https://www.linkedin.com/in/geraldobneto)
 - **Júlia Kuroishi** - *Tecnologia da Informação* - [GitHub](https://github.com/juliakuroishi) | [LinkedIn](https://www.linkedin.com/in/julia-kuroishi-244bb0248/)
